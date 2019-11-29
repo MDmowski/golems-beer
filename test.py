@@ -31,7 +31,9 @@ automl_settings = {
     "primary_metric": 'accuracy',
     "featurization": 'auto',
     "verbosity": logging.INFO,
-    "n_cross_validations": 5
+    "n_cross_validations": 5,
+    "enable_cache": True,
+    "max_cores_per_iteration": 2
 }
 
 

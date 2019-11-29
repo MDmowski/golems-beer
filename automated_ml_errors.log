@@ -6008,3 +6008,1357 @@ size of split is: 2744752
 2019-11-29 15:34:32,484 - INFO - 295 : cpu time 11.211642
 2019-11-29 15:34:32,485 - INFO - 295 : child cpu time 194.447366
 2019-11-29 15:34:32,788 - INFO - 295 : Stopping usage telemetry collection
+2019-11-29 15:41:11,666 - INFO - 295 : Starting usage telemetry collection
+2019-11-29 15:41:13,845 - INFO - 295 : Extracting user Data
+2019-11-29 15:41:13,845 - INFO - 295 : User has validation defined, no train rule based validation needed.
+2019-11-29 15:41:13,870 - INFO - 295 : Start creating parent run with DTO:  - name: beer-classification
+ - subscription_id: cde71551-cef6-45b7-aecc-acc8b738c6a0
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 7
+ - featurization: auto
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['Prophet', 'KNN', 'SVM']
+ - supported_models: ['AveragedPerceptronClassifier', 'MultinomialNaiveBayes', 'BernoulliNaiveBayes', 'DecisionTree', 'XGBoostClassifier', 'TensorFlowDNN', 'SVM', 'TensorFlowLinearClassifier', 'LightGBM', 'GradientBoosting', 'LinearSVMClassifier', 'RandomForest', 'ExtremeRandomTrees', 'SGD', 'LogisticRegression', 'KNN', 'LinearSVM']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: None
+ - telemetry_verbosity: NOTSET
+ - send_telemetry: False
+ - enable_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: True
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - label_column_name: None
+ - weight_column_name: None
+ - cost_mode: 0
+ - metric_operation: maximize.
+2019-11-29 15:41:51,398 - INFO - 295 : Starting usage telemetry collection
+2019-11-29 15:41:53,028 - INFO - 295 : Extracting user Data
+2019-11-29 15:41:53,028 - INFO - 295 : User has validation defined, no train rule based validation needed.
+2019-11-29 15:41:53,051 - INFO - 295 : Start creating parent run with DTO:  - name: beer-classification
+ - subscription_id: cde71551-cef6-45b7-aecc-acc8b738c6a0
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 7
+ - featurization: auto
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['Prophet', 'KNN', 'SVM']
+ - supported_models: ['KNN', 'RandomForest', 'XGBoostClassifier', 'TensorFlowLinearClassifier', 'LinearSVMClassifier', 'DecisionTree', 'BernoulliNaiveBayes', 'LightGBM', 'LogisticRegression', 'SVM', 'TensorFlowDNN', 'LinearSVM', 'AveragedPerceptronClassifier', 'ExtremeRandomTrees', 'GradientBoosting', 'MultinomialNaiveBayes', 'SGD']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: None
+ - telemetry_verbosity: NOTSET
+ - send_telemetry: False
+ - enable_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: True
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - label_column_name: None
+ - weight_column_name: None
+ - cost_mode: 0
+ - metric_operation: maximize.
+2019-11-29 15:41:54,532 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a]SDK dependencies versions:{"azureml": "0.2.7", "azureml-widgets": "1.0.76", "azureml-train": "1.0.76", "azureml-train-restclients-hyperdrive": "1.0.76", "azureml-train-core": "1.0.76", "azureml-train-automl": "1.0.76", "azureml-train-automl-runtime": "1.0.76.1", "azureml-train-automl-client": "1.0.76", "azureml-telemetry": "1.0.76", "azureml-sdk": "1.0.76", "azureml-pipeline": "1.0.76", "azureml-pipeline-steps": "1.0.76", "azureml-pipeline-core": "1.0.76", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-defaults": "1.0.76", "azureml-dataprep": "1.1.31", "azureml-dataprep-native": "13.1.0", "azureml-core": "1.0.76", "azureml-contrib-notebook": "1.0.76", "azureml-automl-runtime": "1.0.76.1", "azureml-automl-core": "1.0.76"}.
+2019-11-29 15:41:55,178 - INFO - 295 : [ParentRunID:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a] Local run using input X and y.
+2019-11-29 15:41:55,178 - INFO - 295 : Parent Run ID: AutoML_35c35617-c85a-43ef-89df-20b9b66f448a
+2019-11-29 15:41:55,178 - INFO - 295 : [ParentRunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a]Input X datatype is <class 'numpy.ndarray'>, shape is (34303, 8), datasize is 2195392.
+2019-11-29 15:41:55,178 - INFO - 295 : [ParentRunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a]Input y datatype is <class 'numpy.ndarray'>, shape is (34303,), datasize is 274520.
+2019-11-29 15:41:55,179 - INFO - 295 : ActivityStarted, PreProcess
+2019-11-29 15:41:56,503 - INFO - 295 : Pre-processing user data
+2019-11-29 15:41:56,504 - INFO - 295 : The size of raw data is: 2470295
+2019-11-29 15:41:56,545 - INFO - 295 : [YCol]RawFeatureStats:{"num_unique_vals": "7", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"string\"", "lengths": "{}", "num_unique_lens": "4", "average_entry_length": "3.800163251027607", "average_number_spaces": "0.0", "cardinality_ratio": "0.00020406378450864355", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:56,549 - INFO - 295 : Start doing label encoding on y data.
+2019-11-29 15:41:56,555 - INFO - 295 : End doing label encoding on y data.
+2019-11-29 15:41:56,555 - INFO - 295 : Start checking class balancing on y data.
+2019-11-29 15:41:56,558 - INFO - 295 : X datatype is <class 'numpy.ndarray'>, shape is (34303, 8), datasize is 2195392.
+2019-11-29 15:41:56,559 - INFO - 295 : y datatype is <class 'numpy.ndarray'>, shape is (34303,), datasize is 274520.
+2019-11-29 15:41:57,298 - INFO - 295 : Featurizer mapper not found so learn all the transforms
+2019-11-29 15:41:58,012 - INFO - 295 : Start getting transformers.
+2019-11-29 15:41:58,599 - INFO - 295 : [XColNum:0]RawFeatureStats:{"num_unique_vals": "986", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,599 - INFO - 295 : Preprocess transformer for col 0, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,600 - INFO - 295 : [XColNum:1]RawFeatureStats:{"num_unique_vals": "894", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,600 - INFO - 295 : Preprocess transformer for col 1, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,600 - INFO - 295 : [XColNum:2]RawFeatureStats:{"num_unique_vals": "1207", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,600 - INFO - 295 : Preprocess transformer for col 2, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,601 - INFO - 295 : [XColNum:3]RawFeatureStats:{"num_unique_vals": "10260", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,601 - INFO - 295 : Preprocess transformer for col 3, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,601 - INFO - 295 : [XColNum:4]RawFeatureStats:{"num_unique_vals": "4335", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,601 - INFO - 295 : Preprocess transformer for col 4, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,602 - INFO - 295 : [XColNum:5]RawFeatureStats:{"num_unique_vals": "54", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,602 - INFO - 295 : Preprocess transformer for col 5, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,602 - INFO - 295 : [XColNum:6]RawFeatureStats:{"num_unique_vals": "422", "total_number_vals": "33115", "total_number_vals_including_nans": "34303", "num_na": "1188", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,602 - INFO - 295 : Preprocess transformer for col 6, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,602 - INFO - 295 : [XColNum:7]RawFeatureStats:{"num_unique_vals": "201", "total_number_vals": "34303", "total_number_vals_including_nans": "34303", "num_na": "0", "column_type": "\"floating\"", "lengths": "null", "num_unique_lens": "0", "average_entry_length": "0", "average_number_spaces": "0", "cardinality_ratio": "0", "is_datetime": "false", "is_all_nan": "false"}
+2019-11-29 15:41:58,603 - INFO - 295 : Preprocess transformer for col 7, datatype: float64, detected datatype Numeric
+2019-11-29 15:41:58,603 - INFO - 295 : Performing feature sweeping
+2019-11-29 15:41:58,709 - INFO - 295 : Limits set to mem_in_mb=None, wall_time_in_s=86400, total_wall_time_in_s=31449600, cpu_time_in_s=None, num_processes=None, grace_period_in_s=None, 
+2019-11-29 15:41:58,710 - INFO - 295 : Calling function <function MetaSweeper._sweep_internal at 0x133a51320> with argument types: [<class 'list'>, <class 'list'>, <class 'str'>, <class 'pandas.core.frame.DataFrame'>, <class 'numpy.ndarray'>, <class 'dict'>], {}
+2019-11-29 15:41:58,751 - CRITICAL - 295 : Type: Unclassified
+Class: PicklingError
+Message: logger cannot be pickled
+Traceback:
+  File "limit_function_call_spawn.py", line 123, in execute
+    **kwargs)
+  File "spawn_client.py", line 77, in run_in_proc
+    dill.dump((f, args, kwargs), file, protocol=dill.HIGHEST_PROTOCOL)
+  File "_dill.py", line 259, in dump
+    Pickler(file, protocol, **_kwds).dump(obj)
+  File "_dill.py", line 445, in dump
+    StockPickler.dump(self, obj)
+  File "pickle.py", line 437, in dump
+    self.save(obj)
+  File "pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 774, in save_tuple
+    save(element)
+  File "pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 789, in save_tuple
+    save(element)
+  File "pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 819, in save_list
+    self._batch_appends(obj)
+  File "pickle.py", line 843, in _batch_appends
+    save(x)
+  File "pickle.py", line 549, in save
+    self.save_reduce(obj=obj, *rv)
+  File "pickle.py", line 662, in save_reduce
+    save(state)
+  File "pickle.py", line 504, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "_dill.py", line 912, in save_module_dict
+    StockPickler.save_dict(pickler, obj)
+  File "pickle.py", line 859, in save_dict
+    self._batch_setitems(obj.items())
+  File "pickle.py", line 885, in _batch_setitems
+    save(v)
+  File "pickle.py", line 524, in save
+    rv = reduce(self.proto)
+  File "__init__.py", line 1658, in __reduce__
+    raise pickle.PicklingError('logger cannot be pickled')
+
+2019-11-29 15:42:00,023 - WARNING - 295 : Feature sweeping silently failed. ExitStatus: logger cannot be pickled
+2019-11-29 15:42:00,023 - INFO - 295 : Recovering sweeping metadata from checkpoint file
+2019-11-29 15:42:00,025 - INFO - 295 : Transforms:
+col 0, transformers: Imputer
+col 1, transformers: Imputer
+col 2, transformers: Imputer
+col 3, transformers: Imputer
+col 4, transformers: Imputer
+col 5, transformers: Imputer
+col 6, transformers: Imputer
+col 6, transformers: ImputationMarker
+col 7, transformers: Imputer
+2019-11-29 15:42:00,025 - INFO - 295 : The stats_computation for raw data are following:-
+	Number of CategoricalHash features: 0
+	Number of Numeric features: 8
+	Number of Hashes features: 0
+	Number of Ignore features: 0
+	Number of AllNan features: 0
+	Number of Categorical features: 0
+	Number of Text features: 0
+	Number of DateTime features: 0
+2019-11-29 15:42:00,025 - INFO - 295 : End getting transformers.
+2019-11-29 15:42:00,050 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:00,050 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,051 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,052 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,053 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,053 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,055 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,055 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,055 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,057 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,057 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,057 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,059 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,059 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,060 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,061 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,062 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,062 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,064 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,064 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,064 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,066 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,067 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,067 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:00,068 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,068 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,068 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,070 - INFO - 295 : Imputer: Finished applying transform. Shape (34303, 1)
+2019-11-29 15:42:00,070 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:00,513 - INFO - 295 : Creating cross validations
+2019-11-29 15:42:00,810 - INFO - 295 : Found cross validation type: KFoldCrossValidationSplit
+2019-11-29 15:42:00,810 - INFO - 295 : Creating featurized version of CV splits data
+2019-11-29 15:42:00,834 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:00,834 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,834 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,836 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,837 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,837 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,839 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,839 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,839 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,841 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,841 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,841 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,843 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,843 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,843 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,845 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,845 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,846 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,847 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,848 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,848 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,849 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,850 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,850 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:00,851 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,851 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,851 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,853 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,853 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:00,856 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:00,856 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,856 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,858 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,858 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,859 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,860 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,860 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,860 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,862 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,862 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,862 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,864 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,864 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,864 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,865 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,866 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,866 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,868 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,868 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,868 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,870 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,870 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,870 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:00,872 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,872 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,872 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,873 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,873 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:00,874 - INFO - 295 : _X_train_transformed: (27442, 9)
+y_train: (27442,)
+X_test_transformed: (6861, 9)
+y_test: (6861,)
+size of split is: 2744752
+
+2019-11-29 15:42:00,884 - INFO - 295 : Adding pickle key: featurized_cv_split_0
+2019-11-29 15:42:00,903 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:00,903 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,903 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,905 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,905 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,905 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,907 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,907 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,907 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,909 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,909 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,909 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,911 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,911 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,911 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,913 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,913 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,914 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,916 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,916 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,916 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,920 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,920 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,920 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:00,922 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,922 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,922 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,924 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,924 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:00,926 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:00,927 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,927 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,928 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,928 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,929 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,930 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,930 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,930 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,932 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,932 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,933 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,934 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,935 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,935 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,937 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,937 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,937 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,939 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,940 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,940 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,942 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,942 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,942 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:00,943 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,943 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,943 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,945 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:00,945 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:00,947 - INFO - 295 : _X_train_transformed: (27442, 9)
+y_train: (27442,)
+X_test_transformed: (6861, 9)
+y_test: (6861,)
+size of split is: 2744752
+
+2019-11-29 15:42:00,956 - INFO - 295 : Adding pickle key: featurized_cv_split_1
+2019-11-29 15:42:00,974 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:00,974 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,974 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,976 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,976 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,976 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,978 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,979 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,979 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,982 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,982 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,982 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,985 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,985 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,986 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,988 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,989 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,989 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,991 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,992 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,992 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,994 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,994 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,994 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:00,995 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,995 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,995 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:00,997 - INFO - 295 : Imputer: Finished applying transform. Shape (27442, 1)
+2019-11-29 15:42:00,997 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:00,999 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:00,999 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:00,999 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,001 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,001 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,001 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,003 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,003 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,003 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,004 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,004 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,005 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,006 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,006 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,006 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,008 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,008 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,008 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,009 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,009 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,009 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,011 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,011 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,011 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:01,012 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,012 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,012 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,014 - INFO - 295 : Imputer: Finished applying transform. Shape (6861, 1)
+2019-11-29 15:42:01,014 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:01,015 - INFO - 295 : _X_train_transformed: (27442, 9)
+y_train: (27442,)
+X_test_transformed: (6861, 9)
+y_test: (6861,)
+size of split is: 2744752
+
+2019-11-29 15:42:01,023 - INFO - 295 : Adding pickle key: featurized_cv_split_2
+2019-11-29 15:42:01,040 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:01,040 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,041 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,042 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,043 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,043 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,045 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,046 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,046 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,048 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,048 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,048 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,050 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,050 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 147525632 bytes
+2019-11-29 15:42:01,050 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,052 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,052 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 146268160 bytes
+2019-11-29 15:42:01,052 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,054 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,054 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,054 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,056 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,056 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,056 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:01,057 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,057 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,057 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,059 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,059 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:01,061 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:01,061 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,061 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,063 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,063 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,063 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,064 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,064 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,065 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,066 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,066 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,066 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,067 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,068 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,068 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,069 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,069 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,069 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,070 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,071 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,071 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,072 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,072 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,072 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:01,073 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,073 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,073 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,074 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,075 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:01,076 - INFO - 295 : _X_train_transformed: (27443, 9)
+y_train: (27443,)
+X_test_transformed: (6860, 9)
+y_test: (6860,)
+size of split is: 2744752
+
+2019-11-29 15:42:01,083 - INFO - 295 : Adding pickle key: featurized_cv_split_3
+2019-11-29 15:42:01,100 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:01,100 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,100 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,102 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,103 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,103 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,105 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,105 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,105 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,107 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,107 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,107 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,109 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,110 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,110 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,112 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,112 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,112 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,114 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,114 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,114 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,116 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,116 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,116 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:01,117 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,117 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,117 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,119 - INFO - 295 : Imputer: Finished applying transform. Shape (27443, 1)
+2019-11-29 15:42:01,119 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:01,121 - INFO - 295 : Starting to apply transforms. Total ram: 17179869184 bytes
+2019-11-29 15:42:01,121 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,121 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,123 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,123 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,123 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,124 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,124 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,124 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,125 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,126 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,126 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,127 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,127 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,127 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,129 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,129 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,129 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,130 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,130 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,130 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,132 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,132 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,132 - INFO - 295 : ImputationMarker: Applying transform.
+2019-11-29 15:42:01,133 - INFO - 295 : ImputationMarker: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,133 - INFO - 295 : Transform memory estimate: 0 bytes, Current available memory: 145743872 bytes
+2019-11-29 15:42:01,133 - INFO - 295 : Imputer: Applying transform.
+2019-11-29 15:42:01,134 - INFO - 295 : Imputer: Finished applying transform. Shape (6860, 1)
+2019-11-29 15:42:01,134 - INFO - 295 : Finished applying transforms
+2019-11-29 15:42:01,135 - INFO - 295 : _X_train_transformed: (27443, 9)
+y_train: (27443,)
+X_test_transformed: (6860, 9)
+y_test: (6860,)
+size of split is: 2744752
+
+2019-11-29 15:42:01,143 - INFO - 295 : Adding pickle key: featurized_cv_split_4
+2019-11-29 15:42:01,143 - INFO - 295 : Completed creating cross-validation folds and featurizing them
+2019-11-29 15:42:01,174 - INFO - 295 : The size of transformed data is: 2746071
+2019-11-29 15:42:01,175 - INFO - 295 : ActivityCompleted: Activity=PreProcess, HowEnded=Success, Duration=5995.94 [ms]
+2019-11-29 15:42:01,404 - INFO - 295 : memory usage 386080768
+2019-11-29 15:42:01,404 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:42:01,404 - INFO - 295 : cpu time 6.11923
+2019-11-29 15:42:01,405 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:42:01,538 - INFO - 295 : Logging dataset information for AutoML_35c35617-c85a-43ef-89df-20b9b66f448a
+2019-11-29 15:42:01,543 - INFO - 295 : [ParentRunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a]X datatype is <class 'numpy.ndarray'>, shape is (34303, 9), datasize is 2469928.
+2019-11-29 15:42:01,544 - INFO - 295 : [ParentRunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a]y datatype is <class 'numpy.ndarray'>, shape is (34303,), datasize is 274520.
+2019-11-29 15:42:02,252 - INFO - 295 : Initialized ClientDatasets object from transformed_data_context.. deleting transformed_data_context.
+2019-11-29 15:42:06,426 - INFO - 295 : Start local loop.
+2019-11-29 15:42:06,426 - INFO - 295 : Start iteration: 0
+2019-11-29 15:42:06,427 - INFO - 295 : ActivityStarted, FitIteration
+2019-11-29 15:42:06,427 - INFO - 295 : ActivityStarted, GetPipeline
+2019-11-29 15:42:06,427 - INFO - 295 : Querying Jasmine for next task.
+2019-11-29 15:42:08,675 - INFO - 295 : ActivityCompleted: Activity=GetPipeline, HowEnded=Success, Duration=2247.76 [ms]
+2019-11-29 15:42:08,675 - INFO - 295 : Received pipeline ID f2f08837edc96ada39aee31331227c92b06f8bd7
+2019-11-29 15:42:10,170 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_0]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:42:10,171 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_0]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:42:10,171 - INFO - 295 : All versions str:
+{"typed-ast": "1.4.0", "scikit-learn": "0.21.3", "rope": "0.14.0", "pylint": "2.4.4", "pycodestyle": "2.5.0", "mccabe": "0.6.1", "lazy-object-proxy": "1.4.3", "isort": "4.3.21", "autopep8": "1.4.4", "astroid": "2.3.3", "zipp": "0.6.0", "xgboost": "0.90", "wrapt": "1.11.2", "widgetsnbextension": "3.5.1", "wheel": "0.33.4", "werkzeug": "0.16.0", "websocket-client": "0.56.0", "webencodings": "0.5.1", "wcwidth": "0.1.7", "virtualenv": "16.7.6", "urllib3": "1.25.7", "typing-extensions": "3.7.4.1", "traitlets": "4.3.3", "tqdm": "4.39.0", "tornado": "6.0.3", "textwrap3": "0.9.2", "testpath": "0.4.2", "terminado": "0.8.2", "termcolor": "1.1.0", "tensorflow": "2.0.0", "tensorflow-estimator": "2.0.1", "tensorboard": "2.0.0", "tenacity": "6.0.0", "statsmodels": "0.10.2", "smart-open": "1.9.0", "sklearn": "0.0", "sklearn-pandas": "1.7.0", "skl2onnx": "1.4.9", "six": "1.12.0", "setuptools": "41.4.0", "send2trash": "1.5.0", "secretstorage": "3.1.1", "seaborn": "0.9.0", "scipy": "1.1.0", "scikit-image": "0.16.1", "s3transfer": "0.2.1", "ruamel.yaml": "0.15.89", "resource": "0.2.1", "requests": "2.22.0", "requests-oauthlib": "1.3.0", "qtconsole": "4.5.5", "pyzmq": "18.1.0", "pyyaml": "5.1.2", "pywavelets": "1.1.1", "pytz": "2019.3", "python-easyconfig": "0.1.7", "python-dateutil": "2.8.0", "pyrsistent": "0.15.4", "pyparsing": "2.4.2", "pyopenssl": "19.1.0", "pyjwt": "1.7.1", "pygments": "2.4.2", "pyflakes": "2.1.1", "pycparser": "2.19", "pyasn1": "0.4.8", "ptyprocess": "0.6.0", "psutil": "5.6.7", "protobuf": "3.10.0", "prompt-toolkit": "2.0.10", "prometheus-client": "0.7.1", "pmdarima": "1.1.1", "pip": "19.3.1", "pillow": "6.2.0", "pickleshare": "0.7.5", "pexpect": "4.7.0", "patsy": "0.5.1", "pathspec": "0.6.0", "parso": "0.5.1", "papermill": "1.2.1", "pandocfilters": "1.4.2", "pandas": "0.23.4", "opt-einsum": "3.1.0", "onnxmltools": "1.4.1", "onnxconverter-common": "1.6.0", "onnx": "1.6.0", "oauthlib": "3.1.0", "numpy": "1.16.2", "notebook": "6.0.1", "nimbusml": "1.5.0", "networkx": "2.4", "ndg-httpsclient": "0.5.1", "nbformat": "4.4.0", "nbconvert": "5.6.0", "msrestazure": "0.6.2", "msrest": "0.6.10", "more-itertools": "7.2.0", "mistune": "0.8.4", "matplotlib": "3.1.1", "markupsafe": "1.1.1", "markdown": "3.1.1", "lightgbm": "2.3.1", "liac-arff": "2.4.0", "kiwisolver": "1.1.0", "keras2onnx": "1.6.0", "keras": "2.3.1", "keras-preprocessing": "1.1.0", "keras-applications": "1.0.8", "jupyter": "1.0.0", "jupyter-core": "4.6.0", "jupyter-console": "6.0.0", "jupyter-client": "5.3.4", "jsonsir": "0.0.2", "jsonschema": "3.1.1", "jsonpickle": "1.2", "jsonform": "0.0.2", "json-logging-py": "0.2", "joblib": "0.14.0", "jmespath": "0.9.4", "jinja2": "2.10.3", "jeepney": "0.4.1", "jedi": "0.15.1", "itsdangerous": "1.1.0", "isodate": "0.6.0", "ipywidgets": "7.5.1", "ipython": "7.8.0", "ipython-genutils": "0.2.0", "ipykernel": "5.1.2", "importlib-metadata": "0.23", "imblearn": "0.0", "imbalanced-learn": "0.5.0", "imageio": "2.6.1", "idna": "2.8", "h5py": "2.10.0", "gunicorn": "19.9.0", "grpcio": "1.24.1", "google-pasta": "0.1.7", "gensim": "3.8.1", "gast": "0.2.2", "future": "0.18.2", "fusepy": "3.0.1", "flask": "1.0.3", "flake8": "3.7.9", "fire": "0.2.1", "entrypoints": "0.3", "dotnetcore2": "2.1.11", "docutils": "0.15.2", "docker": "4.1.0", "distro": "1.4.0", "dill": "0.3.1.1", "defusedxml": "0.6.0", "decorator": "4.4.0", "cython": "0.29.14", "cycler": "0.10.0", "cryptography": "2.8", "contextlib2": "0.6.0.post1", "configparser": "3.7.4", "cloudpickle": "1.2.2", "click": "7.0", "chardet": "3.0.4", "cffi": "1.13.2", "certifi": "2019.9.11", "botocore": "1.13.28", "boto3": "1.10.28", "boto": "2.49.0", "bleach": "3.1.0", "backports.weakref": "1.0.post1", "backports.tempfile": "1.0", "backcall": "0.1.0", "azureml": "0.2.7", "azureml-widgets": "1.0.76", "azureml-train": "1.0.76", "azureml-train-restclients-hyperdrive": "1.0.76", "azureml-train-core": "1.0.76", "azureml-train-automl": "1.0.76", "azureml-train-automl-runtime": "1.0.76.1", "azureml-train-automl-client": "1.0.76", "azureml-telemetry": "1.0.76", "azureml-sdk": "1.0.76", "azureml-pipeline": "1.0.76", "azureml-pipeline-steps": "1.0.76", "azureml-pipeline-core": "1.0.76", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-defaults": "1.0.76", "azureml-dataprep": "1.1.31", "azureml-dataprep-native": "13.1.0", "azureml-core": "1.0.76", "azureml-contrib-notebook": "1.0.76", "azureml-automl-runtime": "1.0.76.1", "azureml-automl-core": "1.0.76", "azure-mgmt-storage": "6.0.0", "azure-mgmt-resource": "6.0.0", "azure-mgmt-keyvault": "2.0.0", "azure-mgmt-containerregistry": "2.8.0", "azure-mgmt-authorization": "0.60.0", "azure-graphrbac": "0.61.1", "azure-common": "1.1.23", "attrs": "19.3.0", "astor": "0.8.0", "appnope": "0.1.0", "applicationinsights": "0.11.9", "ansiwrap": "0.8.4", "adal": "1.2.2", "absl-py": "0.8.1"}
+2019-11-29 15:42:10,171 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_0]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:42:10,172 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_0]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:42:10,172 - INFO - 295 : Using child run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_0
+2019-11-29 15:42:10,172 - INFO - 295 : Start executing pipeline {"objects": [{"class_name": "StandardScaler", "module": "sklearn.preprocessing", "param_args": [], "param_kwargs": {"with_mean": true, "with_std": true}, "prepared_kwargs": {}, "spec_class": "preproc"}, {"class_name": "SGDClassifierWrapper", "module": "automl.client.core.common.model_wrappers", "param_args": [], "param_kwargs": {"alpha": 2.653134693877551, "class_weight": null, "eta0": 0.0001, "fit_intercept": true, "l1_ratio": 0.36734693877551017, "learning_rate": "constant", "loss": "modified_huber", "max_iter": 1000, "penalty": "none", "power_t": 0.1111111111111111, "tol": 0.001}, "prepared_kwargs": {}, "spec_class": "sklearn"}], "pipeline_id": "f2f08837edc96ada39aee31331227c92b06f8bd7"}.
+2019-11-29 15:42:10,172 - INFO - 295 : Running with the following AutoML settings:
+ - name: beer-classification
+ - subscription_id: cde71551-cef6-45b7-aecc-acc8b738c6a0
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 7
+ - featurization: auto
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['Prophet', 'KNN', 'SVM']
+ - supported_models: ['KNN', 'RandomForest', 'XGBoostClassifier', 'TensorFlowLinearClassifier', 'LinearSVMClassifier', 'DecisionTree', 'BernoulliNaiveBayes', 'LightGBM', 'LogisticRegression', 'SVM', 'TensorFlowDNN', 'LinearSVM', 'AveragedPerceptronClassifier', 'ExtremeRandomTrees', 'GradientBoosting', 'MultinomialNaiveBayes', 'SGD']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: None
+ - telemetry_verbosity: NOTSET
+ - send_telemetry: False
+ - enable_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: True
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - label_column_name: None
+ - weight_column_name: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-11-29 15:42:10,172 - INFO - 295 : Component PrepareData finished after 2.2666666666666668e-05 minutes.
+2019-11-29 15:42:10,172 - INFO - 295 : ActivityStarted: RunPipeline
+2019-11-29 15:42:10,631 - INFO - 295 : Limiting disabled.
+2019-11-29 15:42:10,632 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:42:10,643 - INFO - 437 : ActivityStarted: RunCV
+2019-11-29 15:42:10,649 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:10,765 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=115.63[ms]
+2019-11-29 15:42:10,767 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:10,768 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:10,776 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=7.39[ms]
+2019-11-29 15:42:10,778 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:10,959 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=192.12[ms]
+2019-11-29 15:42:10,967 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:11,079 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=111.59[ms]
+2019-11-29 15:42:11,406 - INFO - 295 : memory usage 386080768
+2019-11-29 15:42:11,407 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:42:11,407 - INFO - 295 : cpu time 7.056185
+2019-11-29 15:42:11,407 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:42:12,065 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:12,066 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:12,068 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.81[ms]
+2019-11-29 15:42:12,071 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:12,259 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=193.8[ms]
+2019-11-29 15:42:12,267 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:12,372 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=104.41[ms]
+2019-11-29 15:42:12,373 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:12,373 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:12,375 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.49[ms]
+2019-11-29 15:42:12,377 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:12,558 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=185.66[ms]
+2019-11-29 15:42:13,311 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:13,429 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=117.53[ms]
+2019-11-29 15:42:13,430 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:13,430 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:13,432 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.45[ms]
+2019-11-29 15:42:13,434 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:13,615 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=185.39[ms]
+2019-11-29 15:42:13,623 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:13,757 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=134.1[ms]
+2019-11-29 15:42:13,759 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:13,760 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:14,906 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1145.85[ms]
+2019-11-29 15:42:14,908 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:15,084 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=1325.51[ms]
+2019-11-29 15:42:15,085 - INFO - 455 : ActivityCompleted: Activity=RunCV, HowEnded=Success, Duration=4441.67[ms]
+2019-11-29 15:42:15,086 - INFO - 437 : ActivityStarted: RunCVMean
+2019-11-29 15:42:15,095 - INFO - 455 : ActivityCompleted: Activity=RunCVMean, HowEnded=Success, Duration=9.91[ms]
+2019-11-29 15:42:15,169 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=4537.06[ms]
+2019-11-29 15:42:15,170 - INFO - 295 : Limiting disabled.
+2019-11-29 15:42:15,171 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:42:15,179 - INFO - 437 : ActivityStarted: TrainFull
+2019-11-29 15:42:15,180 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:15,310 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=129.8[ms]
+2019-11-29 15:42:16,342 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:16,343 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:16,349 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=5.65[ms]
+2019-11-29 15:42:16,352 - INFO - 295 : Classification metrics debug: {'y_test': (34303,), 'y_pred_probs': (34303, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:17,171 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=829.06[ms]
+2019-11-29 15:42:17,171 - INFO - 455 : ActivityCompleted: Activity=TrainFull, HowEnded=Success, Duration=1992.13[ms]
+2019-11-29 15:42:17,257 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=2086.28[ms]
+2019-11-29 15:42:17,258 - INFO - 295 : ActivityCompleted: Activity=RunPipeline, HowEnded=Success, Duration=7085.87[ms]
+2019-11-29 15:42:17,259 - INFO - 295 : Pipeline execution finished with a score of 0.6302070688978946
+2019-11-29 15:42:17,259 - INFO - 295 : Start logging metrics for child run.
+2019-11-29 15:42:17,259 - INFO - 295 : ActivityStarted: MetricsAndSaveModel
+2019-11-29 15:42:21,023 - WARNING - 295 : Did not recognize metric: train time. Will not log.
+2019-11-29 15:42:21,024 - WARNING - 295 : Did not recognize metric: fit_time. Will not log.
+2019-11-29 15:42:21,024 - WARNING - 295 : Did not recognize metric: predict_time. Will not log.
+2019-11-29 15:42:21,024 - INFO - 295 : run_id:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_0, pipeline_id:f2f08837edc96ada39aee31331227c92b06f8bd7,The following metrics have been logged for the child run: {'precision_score_weighted': 0.5237874171880663, 'accuracy_table': <class 'dict'>, 'AUC_macro': 0.8640324518870249, 'f1_score_micro': 0.6302070688978946, 'weighted_accuracy': 0.7489519565266762, 'AUC_weighted': 0.842694477789345, 'f1_score_macro': 0.3079927876610597, 'balanced_accuracy': 0.35432969775472517, 'precision_score_micro': 0.6302070688978946, 'AUC_micro': 0.9030541136908207, 'confusion_matrix': <class 'dict'>, 'average_precision_score_macro': 0.42466476486506755, 'recall_score_macro': 0.35432969775472517, 'average_precision_score_weighted': 0.5944201878669768, 'f1_score_weighted': 0.5566790625415223, 'precision_score_macro': 0.32545826344346607, 'recall_score_micro': 0.6302070688978946, 'norm_macro_recall': 0.24671798071384604, 'accuracy': 0.6302070688978946, 'recall_score_weighted': 0.6302070688978946, 'log_loss': 1.6779952331643628, 'average_precision_score_micro': 0.6435688169724638, 'train time': 0.3490458, 'fit_time': 0.1162796, 'predict_time': 0.2327662}.
+2019-11-29 15:42:21,024 - INFO - 295 : Marking the Run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_0 as Completed.
+2019-11-29 15:42:21,412 - INFO - 295 : memory usage 395628544
+2019-11-29 15:42:21,413 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:42:21,413 - INFO - 295 : cpu time 10.102997
+2019-11-29 15:42:21,414 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:42:22,343 - INFO - 295 : Component CompleteRun finished after 0.20287116666666666 minutes.
+2019-11-29 15:42:22,343 - INFO - 295 : ActivityCompleted: Activity=MetricsAndSaveModel, HowEnded=Success, Duration=5084.39[ms]
+2019-11-29 15:42:23,889 - INFO - 295 : ActivityCompleted: Activity=FitIteration, HowEnded=Success, Duration=17462.01 [ms]
+2019-11-29 15:42:23,889 - INFO - 295 : Start iteration: 1
+2019-11-29 15:42:23,889 - INFO - 295 : ActivityStarted, FitIteration
+2019-11-29 15:42:23,889 - INFO - 295 : ActivityStarted, GetPipeline
+2019-11-29 15:42:23,889 - INFO - 295 : Querying Jasmine for next task.
+2019-11-29 15:42:24,726 - INFO - 295 : ActivityCompleted: Activity=GetPipeline, HowEnded=Success, Duration=836.7 [ms]
+2019-11-29 15:42:24,726 - INFO - 295 : Received pipeline ID 322fae742ef55d1e4ea31ae1953e1e753c960877
+2019-11-29 15:42:26,051 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_1]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:42:26,052 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_1]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:42:26,052 - INFO - 295 : All versions str:
+{"typed-ast": "1.4.0", "scikit-learn": "0.21.3", "rope": "0.14.0", "pylint": "2.4.4", "pycodestyle": "2.5.0", "mccabe": "0.6.1", "lazy-object-proxy": "1.4.3", "isort": "4.3.21", "autopep8": "1.4.4", "astroid": "2.3.3", "zipp": "0.6.0", "xgboost": "0.90", "wrapt": "1.11.2", "widgetsnbextension": "3.5.1", "wheel": "0.33.4", "werkzeug": "0.16.0", "websocket-client": "0.56.0", "webencodings": "0.5.1", "wcwidth": "0.1.7", "virtualenv": "16.7.6", "urllib3": "1.25.7", "typing-extensions": "3.7.4.1", "traitlets": "4.3.3", "tqdm": "4.39.0", "tornado": "6.0.3", "textwrap3": "0.9.2", "testpath": "0.4.2", "terminado": "0.8.2", "termcolor": "1.1.0", "tensorflow": "2.0.0", "tensorflow-estimator": "2.0.1", "tensorboard": "2.0.0", "tenacity": "6.0.0", "statsmodels": "0.10.2", "smart-open": "1.9.0", "sklearn": "0.0", "sklearn-pandas": "1.7.0", "skl2onnx": "1.4.9", "six": "1.12.0", "setuptools": "41.4.0", "send2trash": "1.5.0", "secretstorage": "3.1.1", "seaborn": "0.9.0", "scipy": "1.1.0", "scikit-image": "0.16.1", "s3transfer": "0.2.1", "ruamel.yaml": "0.15.89", "resource": "0.2.1", "requests": "2.22.0", "requests-oauthlib": "1.3.0", "qtconsole": "4.5.5", "pyzmq": "18.1.0", "pyyaml": "5.1.2", "pywavelets": "1.1.1", "pytz": "2019.3", "python-easyconfig": "0.1.7", "python-dateutil": "2.8.0", "pyrsistent": "0.15.4", "pyparsing": "2.4.2", "pyopenssl": "19.1.0", "pyjwt": "1.7.1", "pygments": "2.4.2", "pyflakes": "2.1.1", "pycparser": "2.19", "pyasn1": "0.4.8", "ptyprocess": "0.6.0", "psutil": "5.6.7", "protobuf": "3.10.0", "prompt-toolkit": "2.0.10", "prometheus-client": "0.7.1", "pmdarima": "1.1.1", "pip": "19.3.1", "pillow": "6.2.0", "pickleshare": "0.7.5", "pexpect": "4.7.0", "patsy": "0.5.1", "pathspec": "0.6.0", "parso": "0.5.1", "papermill": "1.2.1", "pandocfilters": "1.4.2", "pandas": "0.23.4", "opt-einsum": "3.1.0", "onnxmltools": "1.4.1", "onnxconverter-common": "1.6.0", "onnx": "1.6.0", "oauthlib": "3.1.0", "numpy": "1.16.2", "notebook": "6.0.1", "nimbusml": "1.5.0", "networkx": "2.4", "ndg-httpsclient": "0.5.1", "nbformat": "4.4.0", "nbconvert": "5.6.0", "msrestazure": "0.6.2", "msrest": "0.6.10", "more-itertools": "7.2.0", "mistune": "0.8.4", "matplotlib": "3.1.1", "markupsafe": "1.1.1", "markdown": "3.1.1", "lightgbm": "2.3.1", "liac-arff": "2.4.0", "kiwisolver": "1.1.0", "keras2onnx": "1.6.0", "keras": "2.3.1", "keras-preprocessing": "1.1.0", "keras-applications": "1.0.8", "jupyter": "1.0.0", "jupyter-core": "4.6.0", "jupyter-console": "6.0.0", "jupyter-client": "5.3.4", "jsonsir": "0.0.2", "jsonschema": "3.1.1", "jsonpickle": "1.2", "jsonform": "0.0.2", "json-logging-py": "0.2", "joblib": "0.14.0", "jmespath": "0.9.4", "jinja2": "2.10.3", "jeepney": "0.4.1", "jedi": "0.15.1", "itsdangerous": "1.1.0", "isodate": "0.6.0", "ipywidgets": "7.5.1", "ipython": "7.8.0", "ipython-genutils": "0.2.0", "ipykernel": "5.1.2", "importlib-metadata": "0.23", "imblearn": "0.0", "imbalanced-learn": "0.5.0", "imageio": "2.6.1", "idna": "2.8", "h5py": "2.10.0", "gunicorn": "19.9.0", "grpcio": "1.24.1", "google-pasta": "0.1.7", "gensim": "3.8.1", "gast": "0.2.2", "future": "0.18.2", "fusepy": "3.0.1", "flask": "1.0.3", "flake8": "3.7.9", "fire": "0.2.1", "entrypoints": "0.3", "dotnetcore2": "2.1.11", "docutils": "0.15.2", "docker": "4.1.0", "distro": "1.4.0", "dill": "0.3.1.1", "defusedxml": "0.6.0", "decorator": "4.4.0", "cython": "0.29.14", "cycler": "0.10.0", "cryptography": "2.8", "contextlib2": "0.6.0.post1", "configparser": "3.7.4", "cloudpickle": "1.2.2", "click": "7.0", "chardet": "3.0.4", "cffi": "1.13.2", "certifi": "2019.9.11", "botocore": "1.13.28", "boto3": "1.10.28", "boto": "2.49.0", "bleach": "3.1.0", "backports.weakref": "1.0.post1", "backports.tempfile": "1.0", "backcall": "0.1.0", "azureml": "0.2.7", "azureml-widgets": "1.0.76", "azureml-train": "1.0.76", "azureml-train-restclients-hyperdrive": "1.0.76", "azureml-train-core": "1.0.76", "azureml-train-automl": "1.0.76", "azureml-train-automl-runtime": "1.0.76.1", "azureml-train-automl-client": "1.0.76", "azureml-telemetry": "1.0.76", "azureml-sdk": "1.0.76", "azureml-pipeline": "1.0.76", "azureml-pipeline-steps": "1.0.76", "azureml-pipeline-core": "1.0.76", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-defaults": "1.0.76", "azureml-dataprep": "1.1.31", "azureml-dataprep-native": "13.1.0", "azureml-core": "1.0.76", "azureml-contrib-notebook": "1.0.76", "azureml-automl-runtime": "1.0.76.1", "azureml-automl-core": "1.0.76", "azure-mgmt-storage": "6.0.0", "azure-mgmt-resource": "6.0.0", "azure-mgmt-keyvault": "2.0.0", "azure-mgmt-containerregistry": "2.8.0", "azure-mgmt-authorization": "0.60.0", "azure-graphrbac": "0.61.1", "azure-common": "1.1.23", "attrs": "19.3.0", "astor": "0.8.0", "appnope": "0.1.0", "applicationinsights": "0.11.9", "ansiwrap": "0.8.4", "adal": "1.2.2", "absl-py": "0.8.1"}
+2019-11-29 15:42:26,053 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_1]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:42:26,053 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_1]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:42:26,053 - INFO - 295 : Using child run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_1
+2019-11-29 15:42:26,053 - INFO - 295 : Start executing pipeline {"objects": [{"class_name": "StandardScaler", "module": "sklearn.preprocessing", "param_args": [], "param_kwargs": {"with_mean": true, "with_std": true}, "prepared_kwargs": {}, "spec_class": "preproc"}, {"class_name": "SGDClassifierWrapper", "module": "automl.client.core.common.model_wrappers", "param_args": [], "param_kwargs": {"alpha": 0.40825918367346936, "class_weight": null, "eta0": 0.01, "fit_intercept": true, "l1_ratio": 0.673469387755102, "learning_rate": "constant", "loss": "modified_huber", "max_iter": 1000, "penalty": "none", "power_t": 0.8888888888888888, "tol": 0.01}, "prepared_kwargs": {}, "spec_class": "sklearn"}], "pipeline_id": "322fae742ef55d1e4ea31ae1953e1e753c960877"}.
+2019-11-29 15:42:26,054 - INFO - 295 : Running with the following AutoML settings:
+ - name: beer-classification
+ - subscription_id: cde71551-cef6-45b7-aecc-acc8b738c6a0
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 7
+ - featurization: auto
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['Prophet', 'KNN', 'SVM']
+ - supported_models: ['KNN', 'RandomForest', 'XGBoostClassifier', 'TensorFlowLinearClassifier', 'LinearSVMClassifier', 'DecisionTree', 'BernoulliNaiveBayes', 'LightGBM', 'LogisticRegression', 'SVM', 'TensorFlowDNN', 'LinearSVM', 'AveragedPerceptronClassifier', 'ExtremeRandomTrees', 'GradientBoosting', 'MultinomialNaiveBayes', 'SGD']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: None
+ - telemetry_verbosity: NOTSET
+ - send_telemetry: False
+ - enable_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: True
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - label_column_name: None
+ - weight_column_name: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-11-29 15:42:26,054 - INFO - 295 : Component PrepareData finished after 3.7783333333333335e-05 minutes.
+2019-11-29 15:42:26,054 - INFO - 295 : ActivityStarted: RunPipeline
+2019-11-29 15:42:26,354 - INFO - 295 : Limiting disabled.
+2019-11-29 15:42:26,355 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:42:26,362 - INFO - 437 : ActivityStarted: RunCV
+2019-11-29 15:42:26,369 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:26,506 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=136.52[ms]
+2019-11-29 15:42:27,092 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:27,094 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:27,095 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.6[ms]
+2019-11-29 15:42:27,097 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:27,288 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=195.68[ms]
+2019-11-29 15:42:27,296 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:27,380 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=84.7[ms]
+2019-11-29 15:42:27,381 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:27,382 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:27,384 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.67[ms]
+2019-11-29 15:42:27,386 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:27,569 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=187.89[ms]
+2019-11-29 15:42:28,843 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:28,998 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=154.39[ms]
+2019-11-29 15:42:28,999 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:29,002 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:29,005 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=2.71[ms]
+2019-11-29 15:42:29,007 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:29,253 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=254.35[ms]
+2019-11-29 15:42:29,264 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:29,491 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=226.81[ms]
+2019-11-29 15:42:29,493 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:29,495 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:30,479 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=984.16[ms]
+2019-11-29 15:42:30,481 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:30,747 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=1254.38[ms]
+2019-11-29 15:42:30,765 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:30,937 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=171.74[ms]
+2019-11-29 15:42:30,938 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:30,939 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:30,941 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.88[ms]
+2019-11-29 15:42:30,943 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:31,123 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=185.19[ms]
+2019-11-29 15:42:31,123 - INFO - 455 : ActivityCompleted: Activity=RunCV, HowEnded=Success, Duration=4761.48[ms]
+2019-11-29 15:42:31,124 - INFO - 437 : ActivityStarted: RunCVMean
+2019-11-29 15:42:31,414 - INFO - 295 : memory usage 395628544
+2019-11-29 15:42:31,415 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:42:31,415 - INFO - 295 : cpu time 12.533907
+2019-11-29 15:42:31,415 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:42:33,184 - INFO - 455 : ActivityCompleted: Activity=RunCVMean, HowEnded=Success, Duration=2059.48[ms]
+2019-11-29 15:42:33,271 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=6915.92[ms]
+2019-11-29 15:42:33,273 - INFO - 295 : Limiting disabled.
+2019-11-29 15:42:33,274 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:42:33,285 - INFO - 437 : ActivityStarted: TrainFull
+2019-11-29 15:42:33,287 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:33,417 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=129.97[ms]
+2019-11-29 15:42:33,418 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:33,419 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:33,425 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=5.93[ms]
+2019-11-29 15:42:33,429 - INFO - 295 : Classification metrics debug: {'y_test': (34303,), 'y_pred_probs': (34303, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:34,309 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=890.38[ms]
+2019-11-29 15:42:35,247 - INFO - 455 : ActivityCompleted: Activity=TrainFull, HowEnded=Success, Duration=1961.35[ms]
+2019-11-29 15:42:35,330 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=2055.32[ms]
+2019-11-29 15:42:35,330 - INFO - 295 : ActivityCompleted: Activity=RunPipeline, HowEnded=Success, Duration=9276.28[ms]
+2019-11-29 15:42:35,331 - INFO - 295 : Pipeline execution finished with a score of 0.6009389743779329
+2019-11-29 15:42:35,331 - INFO - 295 : Start logging metrics for child run.
+2019-11-29 15:42:35,331 - INFO - 295 : ActivityStarted: MetricsAndSaveModel
+2019-11-29 15:42:38,336 - WARNING - 295 : Did not recognize metric: train time. Will not log.
+2019-11-29 15:42:38,336 - WARNING - 295 : Did not recognize metric: fit_time. Will not log.
+2019-11-29 15:42:38,336 - WARNING - 295 : Did not recognize metric: predict_time. Will not log.
+2019-11-29 15:42:38,336 - INFO - 295 : run_id:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_1, pipeline_id:322fae742ef55d1e4ea31ae1953e1e753c960877,The following metrics have been logged for the child run: {'precision_score_weighted': 0.5441197985485358, 'accuracy_table': <class 'dict'>, 'AUC_macro': 0.8125368386161146, 'f1_score_micro': 0.6009389743779329, 'weighted_accuracy': 0.7116466678226967, 'AUC_weighted': 0.8131400226249379, 'f1_score_macro': 0.3193884559286341, 'balanced_accuracy': 0.3468466034186493, 'precision_score_micro': 0.6009389743779329, 'AUC_micro': 0.8844415840464341, 'confusion_matrix': <class 'dict'>, 'average_precision_score_macro': 0.38650894407926345, 'recall_score_macro': 0.3468466034186493, 'average_precision_score_weighted': 0.5632727000135453, 'f1_score_weighted': 0.5432686399111128, 'precision_score_macro': 0.3763266498940223, 'recall_score_micro': 0.6009389743779329, 'norm_macro_recall': 0.23798770398842417, 'accuracy': 0.6009389743779329, 'recall_score_weighted': 0.6009389743779329, 'log_loss': 2.7585609307472, 'average_precision_score_micro': 0.6005590439845175, 'train time': 0.3540826, 'fit_time': 0.1543614, 'predict_time': 0.1997212}.
+2019-11-29 15:42:38,337 - INFO - 295 : Marking the Run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_1 as Completed.
+2019-11-29 15:42:41,419 - INFO - 295 : memory usage 398389248
+2019-11-29 15:42:41,420 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:42:41,420 - INFO - 295 : cpu time 14.150594
+2019-11-29 15:42:41,420 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:42:43,674 - INFO - 295 : Component CompleteRun finished after 0.29369961666666666 minutes.
+2019-11-29 15:42:43,674 - INFO - 295 : ActivityCompleted: Activity=MetricsAndSaveModel, HowEnded=Success, Duration=8342.8[ms]
+2019-11-29 15:42:44,854 - INFO - 295 : ActivityCompleted: Activity=FitIteration, HowEnded=Success, Duration=20964.71 [ms]
+2019-11-29 15:42:44,854 - INFO - 295 : Start iteration: 2
+2019-11-29 15:42:44,854 - INFO - 295 : ActivityStarted, FitIteration
+2019-11-29 15:42:44,855 - INFO - 295 : ActivityStarted, GetPipeline
+2019-11-29 15:42:44,855 - INFO - 295 : Querying Jasmine for next task.
+2019-11-29 15:42:45,836 - INFO - 295 : ActivityCompleted: Activity=GetPipeline, HowEnded=Success, Duration=981.17 [ms]
+2019-11-29 15:42:45,836 - INFO - 295 : Received pipeline ID d9be42186dd2ac9ef8b4e7d32d05996b7fda61e8
+2019-11-29 15:42:48,148 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_2]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:42:48,148 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_2]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:42:48,149 - INFO - 295 : All versions str:
+{"typed-ast": "1.4.0", "scikit-learn": "0.21.3", "rope": "0.14.0", "pylint": "2.4.4", "pycodestyle": "2.5.0", "mccabe": "0.6.1", "lazy-object-proxy": "1.4.3", "isort": "4.3.21", "autopep8": "1.4.4", "astroid": "2.3.3", "zipp": "0.6.0", "xgboost": "0.90", "wrapt": "1.11.2", "widgetsnbextension": "3.5.1", "wheel": "0.33.4", "werkzeug": "0.16.0", "websocket-client": "0.56.0", "webencodings": "0.5.1", "wcwidth": "0.1.7", "virtualenv": "16.7.6", "urllib3": "1.25.7", "typing-extensions": "3.7.4.1", "traitlets": "4.3.3", "tqdm": "4.39.0", "tornado": "6.0.3", "textwrap3": "0.9.2", "testpath": "0.4.2", "terminado": "0.8.2", "termcolor": "1.1.0", "tensorflow": "2.0.0", "tensorflow-estimator": "2.0.1", "tensorboard": "2.0.0", "tenacity": "6.0.0", "statsmodels": "0.10.2", "smart-open": "1.9.0", "sklearn": "0.0", "sklearn-pandas": "1.7.0", "skl2onnx": "1.4.9", "six": "1.12.0", "setuptools": "41.4.0", "send2trash": "1.5.0", "secretstorage": "3.1.1", "seaborn": "0.9.0", "scipy": "1.1.0", "scikit-image": "0.16.1", "s3transfer": "0.2.1", "ruamel.yaml": "0.15.89", "resource": "0.2.1", "requests": "2.22.0", "requests-oauthlib": "1.3.0", "qtconsole": "4.5.5", "pyzmq": "18.1.0", "pyyaml": "5.1.2", "pywavelets": "1.1.1", "pytz": "2019.3", "python-easyconfig": "0.1.7", "python-dateutil": "2.8.0", "pyrsistent": "0.15.4", "pyparsing": "2.4.2", "pyopenssl": "19.1.0", "pyjwt": "1.7.1", "pygments": "2.4.2", "pyflakes": "2.1.1", "pycparser": "2.19", "pyasn1": "0.4.8", "ptyprocess": "0.6.0", "psutil": "5.6.7", "protobuf": "3.10.0", "prompt-toolkit": "2.0.10", "prometheus-client": "0.7.1", "pmdarima": "1.1.1", "pip": "19.3.1", "pillow": "6.2.0", "pickleshare": "0.7.5", "pexpect": "4.7.0", "patsy": "0.5.1", "pathspec": "0.6.0", "parso": "0.5.1", "papermill": "1.2.1", "pandocfilters": "1.4.2", "pandas": "0.23.4", "opt-einsum": "3.1.0", "onnxmltools": "1.4.1", "onnxconverter-common": "1.6.0", "onnx": "1.6.0", "oauthlib": "3.1.0", "numpy": "1.16.2", "notebook": "6.0.1", "nimbusml": "1.5.0", "networkx": "2.4", "ndg-httpsclient": "0.5.1", "nbformat": "4.4.0", "nbconvert": "5.6.0", "msrestazure": "0.6.2", "msrest": "0.6.10", "more-itertools": "7.2.0", "mistune": "0.8.4", "matplotlib": "3.1.1", "markupsafe": "1.1.1", "markdown": "3.1.1", "lightgbm": "2.3.1", "liac-arff": "2.4.0", "kiwisolver": "1.1.0", "keras2onnx": "1.6.0", "keras": "2.3.1", "keras-preprocessing": "1.1.0", "keras-applications": "1.0.8", "jupyter": "1.0.0", "jupyter-core": "4.6.0", "jupyter-console": "6.0.0", "jupyter-client": "5.3.4", "jsonsir": "0.0.2", "jsonschema": "3.1.1", "jsonpickle": "1.2", "jsonform": "0.0.2", "json-logging-py": "0.2", "joblib": "0.14.0", "jmespath": "0.9.4", "jinja2": "2.10.3", "jeepney": "0.4.1", "jedi": "0.15.1", "itsdangerous": "1.1.0", "isodate": "0.6.0", "ipywidgets": "7.5.1", "ipython": "7.8.0", "ipython-genutils": "0.2.0", "ipykernel": "5.1.2", "importlib-metadata": "0.23", "imblearn": "0.0", "imbalanced-learn": "0.5.0", "imageio": "2.6.1", "idna": "2.8", "h5py": "2.10.0", "gunicorn": "19.9.0", "grpcio": "1.24.1", "google-pasta": "0.1.7", "gensim": "3.8.1", "gast": "0.2.2", "future": "0.18.2", "fusepy": "3.0.1", "flask": "1.0.3", "flake8": "3.7.9", "fire": "0.2.1", "entrypoints": "0.3", "dotnetcore2": "2.1.11", "docutils": "0.15.2", "docker": "4.1.0", "distro": "1.4.0", "dill": "0.3.1.1", "defusedxml": "0.6.0", "decorator": "4.4.0", "cython": "0.29.14", "cycler": "0.10.0", "cryptography": "2.8", "contextlib2": "0.6.0.post1", "configparser": "3.7.4", "cloudpickle": "1.2.2", "click": "7.0", "chardet": "3.0.4", "cffi": "1.13.2", "certifi": "2019.9.11", "botocore": "1.13.28", "boto3": "1.10.28", "boto": "2.49.0", "bleach": "3.1.0", "backports.weakref": "1.0.post1", "backports.tempfile": "1.0", "backcall": "0.1.0", "azureml": "0.2.7", "azureml-widgets": "1.0.76", "azureml-train": "1.0.76", "azureml-train-restclients-hyperdrive": "1.0.76", "azureml-train-core": "1.0.76", "azureml-train-automl": "1.0.76", "azureml-train-automl-runtime": "1.0.76.1", "azureml-train-automl-client": "1.0.76", "azureml-telemetry": "1.0.76", "azureml-sdk": "1.0.76", "azureml-pipeline": "1.0.76", "azureml-pipeline-steps": "1.0.76", "azureml-pipeline-core": "1.0.76", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-defaults": "1.0.76", "azureml-dataprep": "1.1.31", "azureml-dataprep-native": "13.1.0", "azureml-core": "1.0.76", "azureml-contrib-notebook": "1.0.76", "azureml-automl-runtime": "1.0.76.1", "azureml-automl-core": "1.0.76", "azure-mgmt-storage": "6.0.0", "azure-mgmt-resource": "6.0.0", "azure-mgmt-keyvault": "2.0.0", "azure-mgmt-containerregistry": "2.8.0", "azure-mgmt-authorization": "0.60.0", "azure-graphrbac": "0.61.1", "azure-common": "1.1.23", "attrs": "19.3.0", "astor": "0.8.0", "appnope": "0.1.0", "applicationinsights": "0.11.9", "ansiwrap": "0.8.4", "adal": "1.2.2", "absl-py": "0.8.1"}
+2019-11-29 15:42:48,149 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_2]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:42:48,149 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_2]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:42:48,149 - INFO - 295 : Using child run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_2
+2019-11-29 15:42:48,149 - INFO - 295 : Start executing pipeline {"objects": [{"class_name": "MinMaxScaler", "module": "sklearn.preprocessing", "param_args": [], "param_kwargs": {}, "prepared_kwargs": {}, "spec_class": "preproc"}, {"class_name": "SGDClassifierWrapper", "module": "automl.client.core.common.model_wrappers", "param_args": [], "param_kwargs": {"alpha": 0.0001, "class_weight": "balanced", "eta0": 0.001, "fit_intercept": false, "l1_ratio": 0.16326530612244897, "learning_rate": "constant", "loss": "squared_hinge", "max_iter": 1000, "penalty": "l2", "power_t": 0.7777777777777777, "tol": 0.01}, "prepared_kwargs": {}, "spec_class": "sklearn"}], "pipeline_id": "d9be42186dd2ac9ef8b4e7d32d05996b7fda61e8"}.
+2019-11-29 15:42:48,149 - INFO - 295 : Running with the following AutoML settings:
+ - name: beer-classification
+ - subscription_id: cde71551-cef6-45b7-aecc-acc8b738c6a0
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 7
+ - featurization: auto
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['Prophet', 'KNN', 'SVM']
+ - supported_models: ['KNN', 'RandomForest', 'XGBoostClassifier', 'TensorFlowLinearClassifier', 'LinearSVMClassifier', 'DecisionTree', 'BernoulliNaiveBayes', 'LightGBM', 'LogisticRegression', 'SVM', 'TensorFlowDNN', 'LinearSVM', 'AveragedPerceptronClassifier', 'ExtremeRandomTrees', 'GradientBoosting', 'MultinomialNaiveBayes', 'SGD']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: None
+ - telemetry_verbosity: NOTSET
+ - send_telemetry: False
+ - enable_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: True
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - label_column_name: None
+ - weight_column_name: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-11-29 15:42:48,149 - INFO - 295 : Component PrepareData finished after 2.045e-05 minutes.
+2019-11-29 15:42:48,150 - INFO - 295 : ActivityStarted: RunPipeline
+2019-11-29 15:42:48,600 - INFO - 295 : Limiting disabled.
+2019-11-29 15:42:48,601 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:42:48,608 - INFO - 437 : ActivityStarted: RunCV
+2019-11-29 15:42:48,614 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:49,008 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=393.1[ms]
+2019-11-29 15:42:49,009 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:49,010 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:49,013 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=2.94[ms]
+2019-11-29 15:42:49,015 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:49,225 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=216.39[ms]
+2019-11-29 15:42:50,597 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:50,900 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=303.26[ms]
+2019-11-29 15:42:50,901 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:50,902 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:50,905 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=2.8[ms]
+2019-11-29 15:42:50,908 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:51,123 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=222.17[ms]
+2019-11-29 15:42:51,131 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:51,386 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=255.38[ms]
+2019-11-29 15:42:51,388 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:51,388 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:51,423 - INFO - 295 : memory usage 398389248
+2019-11-29 15:42:51,424 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:42:51,424 - INFO - 295 : cpu time 16.120716
+2019-11-29 15:42:51,424 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:42:51,981 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=592.63[ms]
+2019-11-29 15:42:51,984 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:52,178 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=790.27[ms]
+2019-11-29 15:42:52,186 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:52,623 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=436.55[ms]
+2019-11-29 15:42:52,624 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:52,625 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:52,629 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=4.07[ms]
+2019-11-29 15:42:52,632 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:52,829 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=204.71[ms]
+2019-11-29 15:42:52,837 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:53,059 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=222.16[ms]
+2019-11-29 15:42:53,722 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:53,723 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:53,726 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=3.35[ms]
+2019-11-29 15:42:53,729 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:53,998 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=276.24[ms]
+2019-11-29 15:42:53,999 - INFO - 455 : ActivityCompleted: Activity=RunCV, HowEnded=Success, Duration=5390.21[ms]
+2019-11-29 15:42:54,000 - INFO - 437 : ActivityStarted: RunCVMean
+2019-11-29 15:42:54,015 - INFO - 455 : ActivityCompleted: Activity=RunCVMean, HowEnded=Success, Duration=14.98[ms]
+2019-11-29 15:42:54,109 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=5507.84[ms]
+2019-11-29 15:42:54,111 - INFO - 295 : Limiting disabled.
+2019-11-29 15:42:54,112 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:42:54,123 - INFO - 437 : ActivityStarted: TrainFull
+2019-11-29 15:42:54,953 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:42:55,361 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=407.98[ms]
+2019-11-29 15:42:55,362 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:42:55,363 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:42:55,377 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=14.03[ms]
+2019-11-29 15:42:55,381 - INFO - 295 : Classification metrics debug: {'y_test': (34303,), 'y_pred_probs': (34303, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:42:56,522 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=1159.8[ms]
+2019-11-29 15:42:56,523 - INFO - 455 : ActivityCompleted: Activity=TrainFull, HowEnded=Success, Duration=2399.62[ms]
+2019-11-29 15:42:56,640 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=2528.24[ms]
+2019-11-29 15:42:56,642 - INFO - 295 : ActivityCompleted: Activity=RunPipeline, HowEnded=Success, Duration=8491.86[ms]
+2019-11-29 15:42:56,642 - INFO - 295 : Pipeline execution finished with a score of 0.5339200016317351
+2019-11-29 15:42:56,642 - INFO - 295 : Start logging metrics for child run.
+2019-11-29 15:42:56,642 - INFO - 295 : ActivityStarted: MetricsAndSaveModel
+2019-11-29 15:43:00,075 - WARNING - 295 : Did not recognize metric: train time. Will not log.
+2019-11-29 15:43:00,075 - WARNING - 295 : Did not recognize metric: fit_time. Will not log.
+2019-11-29 15:43:00,075 - WARNING - 295 : Did not recognize metric: predict_time. Will not log.
+2019-11-29 15:43:00,075 - INFO - 295 : run_id:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_2, pipeline_id:d9be42186dd2ac9ef8b4e7d32d05996b7fda61e8,The following metrics have been logged for the child run: {'precision_score_weighted': 0.4292686538476346, 'accuracy_table': <class 'dict'>, 'AUC_macro': 0.8170903876678948, 'f1_score_micro': 0.5339200016317351, 'weighted_accuracy': 0.6284970774199239, 'AUC_weighted': 0.7824460163724922, 'f1_score_macro': 0.26758275209119275, 'balanced_accuracy': 0.30880755606136223, 'precision_score_micro': 0.5339200016317351, 'AUC_micro': 0.8786901026951908, 'confusion_matrix': <class 'dict'>, 'average_precision_score_macro': 0.365407331818335, 'recall_score_macro': 0.30880755606136223, 'average_precision_score_weighted': 0.5076638060691661, 'f1_score_weighted': 0.46444972577814114, 'precision_score_macro': 0.24422091882716995, 'recall_score_micro': 0.5339200016317351, 'norm_macro_recall': 0.19360881540492256, 'accuracy': 0.5339200016317351, 'recall_score_weighted': 0.5339200016317351, 'log_loss': 1.2232405365242571, 'average_precision_score_micro': 0.5388220580709435, 'train time': 0.4439938, 'fit_time': 0.3217376, 'predict_time': 0.1222562}.
+2019-11-29 15:43:00,076 - INFO - 295 : Marking the Run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_2 as Completed.
+2019-11-29 15:43:01,128 - INFO - 295 : Component CompleteRun finished after 0.21632226666666668 minutes.
+2019-11-29 15:43:01,128 - INFO - 295 : ActivityCompleted: Activity=MetricsAndSaveModel, HowEnded=Success, Duration=4485.6[ms]
+2019-11-29 15:43:01,425 - INFO - 295 : memory usage 400666624
+2019-11-29 15:43:01,426 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:43:01,426 - INFO - 295 : cpu time 19.910406
+2019-11-29 15:43:01,426 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:43:02,107 - INFO - 295 : ActivityCompleted: Activity=FitIteration, HowEnded=Success, Duration=17252.75 [ms]
+2019-11-29 15:43:02,107 - INFO - 295 : Start iteration: 3
+2019-11-29 15:43:02,108 - INFO - 295 : ActivityStarted, FitIteration
+2019-11-29 15:43:02,108 - INFO - 295 : ActivityStarted, GetPipeline
+2019-11-29 15:43:02,108 - INFO - 295 : Querying Jasmine for next task.
+2019-11-29 15:43:03,032 - INFO - 295 : ActivityCompleted: Activity=GetPipeline, HowEnded=Success, Duration=924.17 [ms]
+2019-11-29 15:43:03,032 - INFO - 295 : Received pipeline ID 032c2f067189c1f56172ca21b98c8843539dd9de
+2019-11-29 15:43:04,194 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_3]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:43:04,195 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_3]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:43:04,195 - INFO - 295 : All versions str:
+{"typed-ast": "1.4.0", "scikit-learn": "0.21.3", "rope": "0.14.0", "pylint": "2.4.4", "pycodestyle": "2.5.0", "mccabe": "0.6.1", "lazy-object-proxy": "1.4.3", "isort": "4.3.21", "autopep8": "1.4.4", "astroid": "2.3.3", "zipp": "0.6.0", "xgboost": "0.90", "wrapt": "1.11.2", "widgetsnbextension": "3.5.1", "wheel": "0.33.4", "werkzeug": "0.16.0", "websocket-client": "0.56.0", "webencodings": "0.5.1", "wcwidth": "0.1.7", "virtualenv": "16.7.6", "urllib3": "1.25.7", "typing-extensions": "3.7.4.1", "traitlets": "4.3.3", "tqdm": "4.39.0", "tornado": "6.0.3", "textwrap3": "0.9.2", "testpath": "0.4.2", "terminado": "0.8.2", "termcolor": "1.1.0", "tensorflow": "2.0.0", "tensorflow-estimator": "2.0.1", "tensorboard": "2.0.0", "tenacity": "6.0.0", "statsmodels": "0.10.2", "smart-open": "1.9.0", "sklearn": "0.0", "sklearn-pandas": "1.7.0", "skl2onnx": "1.4.9", "six": "1.12.0", "setuptools": "41.4.0", "send2trash": "1.5.0", "secretstorage": "3.1.1", "seaborn": "0.9.0", "scipy": "1.1.0", "scikit-image": "0.16.1", "s3transfer": "0.2.1", "ruamel.yaml": "0.15.89", "resource": "0.2.1", "requests": "2.22.0", "requests-oauthlib": "1.3.0", "qtconsole": "4.5.5", "pyzmq": "18.1.0", "pyyaml": "5.1.2", "pywavelets": "1.1.1", "pytz": "2019.3", "python-easyconfig": "0.1.7", "python-dateutil": "2.8.0", "pyrsistent": "0.15.4", "pyparsing": "2.4.2", "pyopenssl": "19.1.0", "pyjwt": "1.7.1", "pygments": "2.4.2", "pyflakes": "2.1.1", "pycparser": "2.19", "pyasn1": "0.4.8", "ptyprocess": "0.6.0", "psutil": "5.6.7", "protobuf": "3.10.0", "prompt-toolkit": "2.0.10", "prometheus-client": "0.7.1", "pmdarima": "1.1.1", "pip": "19.3.1", "pillow": "6.2.0", "pickleshare": "0.7.5", "pexpect": "4.7.0", "patsy": "0.5.1", "pathspec": "0.6.0", "parso": "0.5.1", "papermill": "1.2.1", "pandocfilters": "1.4.2", "pandas": "0.23.4", "opt-einsum": "3.1.0", "onnxmltools": "1.4.1", "onnxconverter-common": "1.6.0", "onnx": "1.6.0", "oauthlib": "3.1.0", "numpy": "1.16.2", "notebook": "6.0.1", "nimbusml": "1.5.0", "networkx": "2.4", "ndg-httpsclient": "0.5.1", "nbformat": "4.4.0", "nbconvert": "5.6.0", "msrestazure": "0.6.2", "msrest": "0.6.10", "more-itertools": "7.2.0", "mistune": "0.8.4", "matplotlib": "3.1.1", "markupsafe": "1.1.1", "markdown": "3.1.1", "lightgbm": "2.3.1", "liac-arff": "2.4.0", "kiwisolver": "1.1.0", "keras2onnx": "1.6.0", "keras": "2.3.1", "keras-preprocessing": "1.1.0", "keras-applications": "1.0.8", "jupyter": "1.0.0", "jupyter-core": "4.6.0", "jupyter-console": "6.0.0", "jupyter-client": "5.3.4", "jsonsir": "0.0.2", "jsonschema": "3.1.1", "jsonpickle": "1.2", "jsonform": "0.0.2", "json-logging-py": "0.2", "joblib": "0.14.0", "jmespath": "0.9.4", "jinja2": "2.10.3", "jeepney": "0.4.1", "jedi": "0.15.1", "itsdangerous": "1.1.0", "isodate": "0.6.0", "ipywidgets": "7.5.1", "ipython": "7.8.0", "ipython-genutils": "0.2.0", "ipykernel": "5.1.2", "importlib-metadata": "0.23", "imblearn": "0.0", "imbalanced-learn": "0.5.0", "imageio": "2.6.1", "idna": "2.8", "h5py": "2.10.0", "gunicorn": "19.9.0", "grpcio": "1.24.1", "google-pasta": "0.1.7", "gensim": "3.8.1", "gast": "0.2.2", "future": "0.18.2", "fusepy": "3.0.1", "flask": "1.0.3", "flake8": "3.7.9", "fire": "0.2.1", "entrypoints": "0.3", "dotnetcore2": "2.1.11", "docutils": "0.15.2", "docker": "4.1.0", "distro": "1.4.0", "dill": "0.3.1.1", "defusedxml": "0.6.0", "decorator": "4.4.0", "cython": "0.29.14", "cycler": "0.10.0", "cryptography": "2.8", "contextlib2": "0.6.0.post1", "configparser": "3.7.4", "cloudpickle": "1.2.2", "click": "7.0", "chardet": "3.0.4", "cffi": "1.13.2", "certifi": "2019.9.11", "botocore": "1.13.28", "boto3": "1.10.28", "boto": "2.49.0", "bleach": "3.1.0", "backports.weakref": "1.0.post1", "backports.tempfile": "1.0", "backcall": "0.1.0", "azureml": "0.2.7", "azureml-widgets": "1.0.76", "azureml-train": "1.0.76", "azureml-train-restclients-hyperdrive": "1.0.76", "azureml-train-core": "1.0.76", "azureml-train-automl": "1.0.76", "azureml-train-automl-runtime": "1.0.76.1", "azureml-train-automl-client": "1.0.76", "azureml-telemetry": "1.0.76", "azureml-sdk": "1.0.76", "azureml-pipeline": "1.0.76", "azureml-pipeline-steps": "1.0.76", "azureml-pipeline-core": "1.0.76", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-defaults": "1.0.76", "azureml-dataprep": "1.1.31", "azureml-dataprep-native": "13.1.0", "azureml-core": "1.0.76", "azureml-contrib-notebook": "1.0.76", "azureml-automl-runtime": "1.0.76.1", "azureml-automl-core": "1.0.76", "azure-mgmt-storage": "6.0.0", "azure-mgmt-resource": "6.0.0", "azure-mgmt-keyvault": "2.0.0", "azure-mgmt-containerregistry": "2.8.0", "azure-mgmt-authorization": "0.60.0", "azure-graphrbac": "0.61.1", "azure-common": "1.1.23", "attrs": "19.3.0", "astor": "0.8.0", "appnope": "0.1.0", "applicationinsights": "0.11.9", "ansiwrap": "0.8.4", "adal": "1.2.2", "absl-py": "0.8.1"}
+2019-11-29 15:43:04,196 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_3]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:43:04,196 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_3]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:43:04,196 - INFO - 295 : Using child run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_3
+2019-11-29 15:43:04,196 - INFO - 295 : Start executing pipeline {"objects": [{"class_name": "MinMaxScaler", "module": "sklearn.preprocessing", "param_args": [], "param_kwargs": {}, "prepared_kwargs": {}, "spec_class": "preproc"}, {"class_name": "RandomForestClassifier", "module": "sklearn.ensemble", "param_args": [], "param_kwargs": {"bootstrap": true, "class_weight": "balanced", "criterion": "gini", "max_features": "log2", "min_samples_leaf": 0.01, "min_samples_split": 0.01, "n_estimators": 25, "oob_score": true}, "prepared_kwargs": {}, "spec_class": "sklearn"}], "pipeline_id": "032c2f067189c1f56172ca21b98c8843539dd9de"}.
+2019-11-29 15:43:04,196 - INFO - 295 : Running with the following AutoML settings:
+ - name: beer-classification
+ - subscription_id: cde71551-cef6-45b7-aecc-acc8b738c6a0
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 7
+ - featurization: auto
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['Prophet', 'KNN', 'SVM']
+ - supported_models: ['KNN', 'RandomForest', 'XGBoostClassifier', 'TensorFlowLinearClassifier', 'LinearSVMClassifier', 'DecisionTree', 'BernoulliNaiveBayes', 'LightGBM', 'LogisticRegression', 'SVM', 'TensorFlowDNN', 'LinearSVM', 'AveragedPerceptronClassifier', 'ExtremeRandomTrees', 'GradientBoosting', 'MultinomialNaiveBayes', 'SGD']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: None
+ - telemetry_verbosity: NOTSET
+ - send_telemetry: False
+ - enable_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: True
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - label_column_name: None
+ - weight_column_name: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-11-29 15:43:04,197 - INFO - 295 : Component PrepareData finished after 2.9049999999999998e-05 minutes.
+2019-11-29 15:43:04,197 - INFO - 295 : ActivityStarted: RunPipeline
+2019-11-29 15:43:04,490 - INFO - 295 : Limiting disabled.
+2019-11-29 15:43:04,491 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:43:04,499 - INFO - 437 : ActivityStarted: RunCV
+2019-11-29 15:43:05,504 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:06,196 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=691.91[ms]
+2019-11-29 15:43:06,197 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:06,198 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:06,222 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=23.39[ms]
+2019-11-29 15:43:06,225 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:06,458 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=260.89[ms]
+2019-11-29 15:43:06,467 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:07,018 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=550.6[ms]
+2019-11-29 15:43:07,019 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:07,020 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:08,490 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1469.65[ms]
+2019-11-29 15:43:08,493 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:08,737 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=1717.54[ms]
+2019-11-29 15:43:08,747 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:09,327 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=580.56[ms]
+2019-11-29 15:43:09,329 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:09,329 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:09,349 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=19.88[ms]
+2019-11-29 15:43:09,351 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:09,565 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=236.79[ms]
+2019-11-29 15:43:09,574 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:10,361 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=786.94[ms]
+2019-11-29 15:43:10,956 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:10,958 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:10,985 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=26.68[ms]
+2019-11-29 15:43:10,987 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:11,232 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=276.0[ms]
+2019-11-29 15:43:11,241 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:11,427 - INFO - 295 : memory usage 400666624
+2019-11-29 15:43:11,428 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:43:11,428 - INFO - 295 : cpu time 23.711963
+2019-11-29 15:43:11,428 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:43:11,793 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=552.72[ms]
+2019-11-29 15:43:11,794 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:11,796 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:11,820 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=24.02[ms]
+2019-11-29 15:43:11,823 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:12,091 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=296.55[ms]
+2019-11-29 15:43:12,654 - INFO - 455 : ActivityCompleted: Activity=RunCV, HowEnded=Success, Duration=8154.44[ms]
+2019-11-29 15:43:12,655 - INFO - 437 : ActivityStarted: RunCVMean
+2019-11-29 15:43:12,670 - INFO - 455 : ActivityCompleted: Activity=RunCVMean, HowEnded=Success, Duration=14.37[ms]
+2019-11-29 15:43:12,784 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=8293.46[ms]
+2019-11-29 15:43:12,787 - INFO - 295 : Limiting disabled.
+2019-11-29 15:43:12,788 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:43:12,799 - INFO - 437 : ActivityStarted: TrainFull
+2019-11-29 15:43:12,801 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:13,660 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=859.38[ms]
+2019-11-29 15:43:13,661 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:13,662 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:14,475 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=812.75[ms]
+2019-11-29 15:43:14,478 - INFO - 295 : Classification metrics debug: {'y_test': (34303,), 'y_pred_probs': (34303, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:15,537 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=1875.62[ms]
+2019-11-29 15:43:15,538 - INFO - 455 : ActivityCompleted: Activity=TrainFull, HowEnded=Success, Duration=2738.87[ms]
+2019-11-29 15:43:15,633 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=2845.51[ms]
+2019-11-29 15:43:15,635 - INFO - 295 : ActivityCompleted: Activity=RunPipeline, HowEnded=Success, Duration=11437.69[ms]
+2019-11-29 15:43:15,635 - INFO - 295 : Pipeline execution finished with a score of 0.5641779730194283
+2019-11-29 15:43:15,635 - INFO - 295 : Start logging metrics for child run.
+2019-11-29 15:43:15,635 - INFO - 295 : ActivityStarted: MetricsAndSaveModel
+2019-11-29 15:43:21,431 - INFO - 295 : memory usage 413646848
+2019-11-29 15:43:21,432 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:43:21,432 - INFO - 295 : cpu time 26.712653
+2019-11-29 15:43:21,432 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:43:22,496 - WARNING - 295 : Did not recognize metric: train time. Will not log.
+2019-11-29 15:43:22,496 - WARNING - 295 : Did not recognize metric: fit_time. Will not log.
+2019-11-29 15:43:22,496 - WARNING - 295 : Did not recognize metric: predict_time. Will not log.
+2019-11-29 15:43:22,497 - INFO - 295 : run_id:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_3, pipeline_id:032c2f067189c1f56172ca21b98c8843539dd9de,The following metrics have been logged for the child run: {'precision_score_weighted': 0.6555552197206114, 'accuracy_table': <class 'dict'>, 'AUC_macro': 0.8887927435859269, 'f1_score_micro': 0.5641779730194283, 'weighted_accuracy': 0.5518998793505031, 'AUC_weighted': 0.8668098289366905, 'f1_score_macro': 0.48922866715745644, 'balanced_accuracy': 0.5988771085581037, 'precision_score_micro': 0.5641779730194283, 'AUC_micro': 0.8919488551051759, 'confusion_matrix': <class 'dict'>, 'average_precision_score_macro': 0.52918307579053, 'recall_score_macro': 0.5988771085581037, 'average_precision_score_weighted': 0.660988737296478, 'f1_score_weighted': 0.5830262603517407, 'precision_score_macro': 0.476942349004304, 'recall_score_micro': 0.5641779730194283, 'norm_macro_recall': 0.5320232933177876, 'accuracy': 0.5641779730194283, 'recall_score_weighted': 0.5641779730194283, 'log_loss': 1.1560523135239582, 'average_precision_score_micro': 0.609523401806179, 'train time': 0.9461714000000001, 'fit_time': 0.632129, 'predict_time': 0.31404240000000005}.
+2019-11-29 15:43:22,497 - INFO - 295 : Marking the Run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_3 as Completed.
+2019-11-29 15:43:23,840 - INFO - 295 : Component CompleteRun finished after 0.32741976666666667 minutes.
+2019-11-29 15:43:23,840 - INFO - 295 : ActivityCompleted: Activity=MetricsAndSaveModel, HowEnded=Success, Duration=8204.85[ms]
+2019-11-29 15:43:24,809 - INFO - 295 : ActivityCompleted: Activity=FitIteration, HowEnded=Success, Duration=22701.37 [ms]
+2019-11-29 15:43:24,809 - INFO - 295 : Start iteration: 4
+2019-11-29 15:43:24,810 - INFO - 295 : ActivityStarted, FitIteration
+2019-11-29 15:43:24,810 - INFO - 295 : ActivityStarted, GetPipeline
+2019-11-29 15:43:24,810 - INFO - 295 : Querying Jasmine for next task.
+2019-11-29 15:43:25,626 - INFO - 295 : ActivityCompleted: Activity=GetPipeline, HowEnded=Success, Duration=816.51 [ms]
+2019-11-29 15:43:25,626 - INFO - 295 : Received pipeline ID 41e0a47454831fdc9797176012384bc00d15f1b9
+2019-11-29 15:43:26,754 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_4]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:43:26,754 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_4]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:43:26,755 - INFO - 295 : All versions str:
+{"typed-ast": "1.4.0", "scikit-learn": "0.21.3", "rope": "0.14.0", "pylint": "2.4.4", "pycodestyle": "2.5.0", "mccabe": "0.6.1", "lazy-object-proxy": "1.4.3", "isort": "4.3.21", "autopep8": "1.4.4", "astroid": "2.3.3", "zipp": "0.6.0", "xgboost": "0.90", "wrapt": "1.11.2", "widgetsnbextension": "3.5.1", "wheel": "0.33.4", "werkzeug": "0.16.0", "websocket-client": "0.56.0", "webencodings": "0.5.1", "wcwidth": "0.1.7", "virtualenv": "16.7.6", "urllib3": "1.25.7", "typing-extensions": "3.7.4.1", "traitlets": "4.3.3", "tqdm": "4.39.0", "tornado": "6.0.3", "textwrap3": "0.9.2", "testpath": "0.4.2", "terminado": "0.8.2", "termcolor": "1.1.0", "tensorflow": "2.0.0", "tensorflow-estimator": "2.0.1", "tensorboard": "2.0.0", "tenacity": "6.0.0", "statsmodels": "0.10.2", "smart-open": "1.9.0", "sklearn": "0.0", "sklearn-pandas": "1.7.0", "skl2onnx": "1.4.9", "six": "1.12.0", "setuptools": "41.4.0", "send2trash": "1.5.0", "secretstorage": "3.1.1", "seaborn": "0.9.0", "scipy": "1.1.0", "scikit-image": "0.16.1", "s3transfer": "0.2.1", "ruamel.yaml": "0.15.89", "resource": "0.2.1", "requests": "2.22.0", "requests-oauthlib": "1.3.0", "qtconsole": "4.5.5", "pyzmq": "18.1.0", "pyyaml": "5.1.2", "pywavelets": "1.1.1", "pytz": "2019.3", "python-easyconfig": "0.1.7", "python-dateutil": "2.8.0", "pyrsistent": "0.15.4", "pyparsing": "2.4.2", "pyopenssl": "19.1.0", "pyjwt": "1.7.1", "pygments": "2.4.2", "pyflakes": "2.1.1", "pycparser": "2.19", "pyasn1": "0.4.8", "ptyprocess": "0.6.0", "psutil": "5.6.7", "protobuf": "3.10.0", "prompt-toolkit": "2.0.10", "prometheus-client": "0.7.1", "pmdarima": "1.1.1", "pip": "19.3.1", "pillow": "6.2.0", "pickleshare": "0.7.5", "pexpect": "4.7.0", "patsy": "0.5.1", "pathspec": "0.6.0", "parso": "0.5.1", "papermill": "1.2.1", "pandocfilters": "1.4.2", "pandas": "0.23.4", "opt-einsum": "3.1.0", "onnxmltools": "1.4.1", "onnxconverter-common": "1.6.0", "onnx": "1.6.0", "oauthlib": "3.1.0", "numpy": "1.16.2", "notebook": "6.0.1", "nimbusml": "1.5.0", "networkx": "2.4", "ndg-httpsclient": "0.5.1", "nbformat": "4.4.0", "nbconvert": "5.6.0", "msrestazure": "0.6.2", "msrest": "0.6.10", "more-itertools": "7.2.0", "mistune": "0.8.4", "matplotlib": "3.1.1", "markupsafe": "1.1.1", "markdown": "3.1.1", "lightgbm": "2.3.1", "liac-arff": "2.4.0", "kiwisolver": "1.1.0", "keras2onnx": "1.6.0", "keras": "2.3.1", "keras-preprocessing": "1.1.0", "keras-applications": "1.0.8", "jupyter": "1.0.0", "jupyter-core": "4.6.0", "jupyter-console": "6.0.0", "jupyter-client": "5.3.4", "jsonsir": "0.0.2", "jsonschema": "3.1.1", "jsonpickle": "1.2", "jsonform": "0.0.2", "json-logging-py": "0.2", "joblib": "0.14.0", "jmespath": "0.9.4", "jinja2": "2.10.3", "jeepney": "0.4.1", "jedi": "0.15.1", "itsdangerous": "1.1.0", "isodate": "0.6.0", "ipywidgets": "7.5.1", "ipython": "7.8.0", "ipython-genutils": "0.2.0", "ipykernel": "5.1.2", "importlib-metadata": "0.23", "imblearn": "0.0", "imbalanced-learn": "0.5.0", "imageio": "2.6.1", "idna": "2.8", "h5py": "2.10.0", "gunicorn": "19.9.0", "grpcio": "1.24.1", "google-pasta": "0.1.7", "gensim": "3.8.1", "gast": "0.2.2", "future": "0.18.2", "fusepy": "3.0.1", "flask": "1.0.3", "flake8": "3.7.9", "fire": "0.2.1", "entrypoints": "0.3", "dotnetcore2": "2.1.11", "docutils": "0.15.2", "docker": "4.1.0", "distro": "1.4.0", "dill": "0.3.1.1", "defusedxml": "0.6.0", "decorator": "4.4.0", "cython": "0.29.14", "cycler": "0.10.0", "cryptography": "2.8", "contextlib2": "0.6.0.post1", "configparser": "3.7.4", "cloudpickle": "1.2.2", "click": "7.0", "chardet": "3.0.4", "cffi": "1.13.2", "certifi": "2019.9.11", "botocore": "1.13.28", "boto3": "1.10.28", "boto": "2.49.0", "bleach": "3.1.0", "backports.weakref": "1.0.post1", "backports.tempfile": "1.0", "backcall": "0.1.0", "azureml": "0.2.7", "azureml-widgets": "1.0.76", "azureml-train": "1.0.76", "azureml-train-restclients-hyperdrive": "1.0.76", "azureml-train-core": "1.0.76", "azureml-train-automl": "1.0.76", "azureml-train-automl-runtime": "1.0.76.1", "azureml-train-automl-client": "1.0.76", "azureml-telemetry": "1.0.76", "azureml-sdk": "1.0.76", "azureml-pipeline": "1.0.76", "azureml-pipeline-steps": "1.0.76", "azureml-pipeline-core": "1.0.76", "azureml-model-management-sdk": "1.0.1b6.post1", "azureml-defaults": "1.0.76", "azureml-dataprep": "1.1.31", "azureml-dataprep-native": "13.1.0", "azureml-core": "1.0.76", "azureml-contrib-notebook": "1.0.76", "azureml-automl-runtime": "1.0.76.1", "azureml-automl-core": "1.0.76", "azure-mgmt-storage": "6.0.0", "azure-mgmt-resource": "6.0.0", "azure-mgmt-keyvault": "2.0.0", "azure-mgmt-containerregistry": "2.8.0", "azure-mgmt-authorization": "0.60.0", "azure-graphrbac": "0.61.1", "azure-common": "1.1.23", "attrs": "19.3.0", "astor": "0.8.0", "appnope": "0.1.0", "applicationinsights": "0.11.9", "ansiwrap": "0.8.4", "adal": "1.2.2", "absl-py": "0.8.1"}
+2019-11-29 15:43:26,755 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_4]CPU logical cores: 4, CPU cores: 2, virtual memory: 17179869184, swap memory: 1073741824.
+2019-11-29 15:43:26,755 - INFO - 295 : [RunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_4]Platform information: Darwin-19.0.0-x86_64-i386-64bit.
+2019-11-29 15:43:26,755 - INFO - 295 : Using child run AutoML_35c35617-c85a-43ef-89df-20b9b66f448a_4
+2019-11-29 15:43:26,755 - INFO - 295 : Start executing pipeline {"objects": [{"class_name": "StandardScaler", "module": "sklearn.preprocessing", "param_args": [], "param_kwargs": {"with_mean": true, "with_std": true}, "prepared_kwargs": {}, "spec_class": "preproc"}, {"class_name": "SGDClassifierWrapper", "module": "automl.client.core.common.model_wrappers", "param_args": [], "param_kwargs": {"alpha": 1.4286571428571428, "class_weight": "balanced", "eta0": 0.0001, "fit_intercept": true, "l1_ratio": 0.18367346938775508, "learning_rate": "constant", "loss": "modified_huber", "max_iter": 1000, "penalty": "none", "power_t": 0.7777777777777777, "tol": 0.01}, "prepared_kwargs": {}, "spec_class": "sklearn"}], "pipeline_id": "41e0a47454831fdc9797176012384bc00d15f1b9"}.
+2019-11-29 15:43:26,756 - INFO - 295 : Running with the following AutoML settings:
+ - name: beer-classification
+ - subscription_id: cde71551-cef6-45b7-aecc-acc8b738c6a0
+ - region: westeurope
+ - spark_context: None
+ - spark_service: None
+ - azure_service: None
+ - iterations: 1000
+ - primary_metric: accuracy
+ - task_type: classification
+ - validation_size: 0.0
+ - n_cross_validations: 5
+ - y_min: None
+ - y_max: None
+ - num_classes: 7
+ - featurization: auto
+ - preprocess: True
+ - lag_length: 0
+ - is_timeseries: False
+ - max_cores_per_iteration: 1
+ - max_concurrent_iterations: 1
+ - iteration_timeout_minutes: None
+ - mem_in_mb: None
+ - enforce_time_on_windows: False
+ - experiment_timeout_minutes: None
+ - experiment_exit_score: None
+ - whitelist_models: None
+ - blacklist_algos: ['Prophet', 'KNN', 'SVM']
+ - supported_models: ['KNN', 'RandomForest', 'XGBoostClassifier', 'TensorFlowLinearClassifier', 'LinearSVMClassifier', 'DecisionTree', 'BernoulliNaiveBayes', 'LightGBM', 'LogisticRegression', 'SVM', 'TensorFlowDNN', 'LinearSVM', 'AveragedPerceptronClassifier', 'ExtremeRandomTrees', 'GradientBoosting', 'MultinomialNaiveBayes', 'SGD']
+ - auto_blacklist: True
+ - blacklist_samples_reached: True
+ - exclude_nan_labels: True
+ - verbosity: 20
+ - show_warnings: False
+ - model_explainability: False
+ - service_url: None
+ - sdk_url: None
+ - sdk_packages: None
+ - enable_onnx_compatible_models: False
+ - enable_split_onnx_featurizer_estimator_models: False
+ - vm_type: None
+ - telemetry_verbosity: NOTSET
+ - send_telemetry: False
+ - enable_dnn: False
+ - enable_feature_sweeping: True
+ - enable_early_stopping: True
+ - early_stopping_n_iters: 10
+ - metrics: None
+ - enable_ensembling: True
+ - enable_stack_ensembling: True
+ - ensemble_iterations: 15
+ - enable_tf: False
+ - enable_cache: True
+ - enable_subsampling: None
+ - subsample_seed: None
+ - enable_nimbusml: False
+ - enable_streaming: False
+ - label_column_name: None
+ - weight_column_name: None
+ - cost_mode: 0
+ - metric_operation: maximize
+2019-11-29 15:43:26,756 - INFO - 295 : Component PrepareData finished after 2.1416666666666664e-05 minutes.
+2019-11-29 15:43:26,756 - INFO - 295 : ActivityStarted: RunPipeline
+2019-11-29 15:43:27,051 - INFO - 295 : Limiting disabled.
+2019-11-29 15:43:27,052 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:43:27,059 - INFO - 437 : ActivityStarted: RunCV
+2019-11-29 15:43:27,065 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:27,176 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=110.42[ms]
+2019-11-29 15:43:27,177 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:27,178 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:28,309 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1130.73[ms]
+2019-11-29 15:43:28,311 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:28,605 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=1428.26[ms]
+2019-11-29 15:43:28,614 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:28,755 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=141.34[ms]
+2019-11-29 15:43:28,756 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:28,758 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:28,760 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=2.13[ms]
+2019-11-29 15:43:28,762 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:28,969 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=212.81[ms]
+2019-11-29 15:43:28,979 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:29,126 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=147.19[ms]
+2019-11-29 15:43:30,065 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:30,066 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:30,068 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=2.01[ms]
+2019-11-29 15:43:30,071 - INFO - 295 : Classification metrics debug: {'y_test': (6861,), 'y_pred_probs': (6861, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:30,273 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=208.07[ms]
+2019-11-29 15:43:30,285 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:30,467 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=181.57[ms]
+2019-11-29 15:43:30,468 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:30,469 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:30,471 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.79[ms]
+2019-11-29 15:43:30,473 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:30,682 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=214.16[ms]
+2019-11-29 15:43:31,436 - INFO - 295 : memory usage 413646848
+2019-11-29 15:43:31,437 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:43:31,438 - INFO - 295 : cpu time 28.881185
+2019-11-29 15:43:31,439 - INFO - 295 : child cpu time 0.038838
+2019-11-29 15:43:31,538 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:31,778 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=240.3[ms]
+2019-11-29 15:43:31,779 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:31,780 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:31,782 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=1.76[ms]
+2019-11-29 15:43:31,785 - INFO - 295 : Classification metrics debug: {'y_test': (6860,), 'y_pred_probs': (6860, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:32,014 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=234.35[ms]
+2019-11-29 15:43:32,014 - INFO - 455 : ActivityCompleted: Activity=RunCV, HowEnded=Success, Duration=4954.86[ms]
+2019-11-29 15:43:32,016 - INFO - 437 : ActivityStarted: RunCVMean
+2019-11-29 15:43:32,028 - INFO - 455 : ActivityCompleted: Activity=RunCVMean, HowEnded=Success, Duration=12.22[ms]
+2019-11-29 15:43:32,125 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=5072.66[ms]
+2019-11-29 15:43:32,836 - INFO - 295 : Limiting disabled.
+2019-11-29 15:43:32,838 - INFO - 437 : ActivityStarted: Run
+2019-11-29 15:43:32,860 - INFO - 437 : ActivityStarted: TrainFull
+2019-11-29 15:43:32,862 - INFO - 437 : ActivityStarted: TimeFit
+2019-11-29 15:43:33,117 - INFO - 455 : ActivityCompleted: Activity=TimeFit, HowEnded=Success, Duration=255.59[ms]
+2019-11-29 15:43:33,118 - INFO - 437 : ActivityStarted: ComputeMetrics
+2019-11-29 15:43:33,119 - INFO - 437 : ActivityStarted: Predict
+2019-11-29 15:43:33,126 - INFO - 455 : ActivityCompleted: Activity=Predict, HowEnded=Success, Duration=6.23[ms]
+2019-11-29 15:43:33,130 - INFO - 295 : Classification metrics debug: {'y_test': (34303,), 'y_pred_probs': (34303, 7), 'unique_y_test': (7,), 'class_labels': (7,), 'train_labels': (7,), 'n_missing_train': 0, 'n_missing_valid': 0, 'sample_weight': None}
+2019-11-29 15:43:34,129 - INFO - 455 : ActivityCompleted: Activity=ComputeMetrics, HowEnded=Success, Duration=1010.74[ms]
+2019-11-29 15:43:34,130 - INFO - 455 : ActivityCompleted: Activity=TrainFull, HowEnded=Success, Duration=1269.93[ms]
+2019-11-29 15:43:34,227 - INFO - 455 : ActivityCompleted: Activity=Run, HowEnded=Success, Duration=1388.5[ms]
+2019-11-29 15:43:35,001 - INFO - 295 : ActivityCompleted: Activity=RunPipeline, HowEnded=Success, Duration=8245.23[ms]
+2019-11-29 15:43:35,002 - INFO - 295 : Pipeline execution finished with a score of 0.5625455026785529
+2019-11-29 15:43:35,002 - INFO - 295 : Start logging metrics for child run.
+2019-11-29 15:43:35,002 - INFO - 295 : ActivityStarted: MetricsAndSaveModel
+2019-11-29 15:43:36,841 - INFO - 295 : ActivityCompleted: Activity=MetricsAndSaveModel, HowEnded=Success, Duration=1838.69[ms]
+2019-11-29 15:43:38,371 - INFO - 295 : ActivityCompleted: Activity=FitIteration, HowEnded=Success, Duration=13561.06 [ms]
+2019-11-29 15:43:38,371 - INFO - 295 : Start iteration: 5
+2019-11-29 15:43:38,371 - INFO - 295 : ActivityStarted, FitIteration
+2019-11-29 15:43:38,371 - INFO - 295 : ActivityStarted, GetPipeline
+2019-11-29 15:43:38,371 - INFO - 295 : Querying Jasmine for next task.
+2019-11-29 15:43:39,322 - INFO - 295 : ActivityCompleted: Activity=GetPipeline, HowEnded=Success, Duration=950.9 [ms]
+2019-11-29 15:43:39,322 - INFO - 295 : Received pipeline ID dbbac62423083471f5eb230f41e6763e90defcdf
+2019-11-29 15:43:41,187 - INFO - 295 : ActivityCompleted: Activity=FitIteration, HowEnded=Success, Duration=2816.26 [ms]
+2019-11-29 15:43:41,188 - INFO - 295 : [ParentRunId:AutoML_35c35617-c85a-43ef-89df-20b9b66f448a]Received interrupt. Returning now.
+2019-11-29 15:43:41,446 - INFO - 295 : memory usage 413646848
+2019-11-29 15:43:41,446 - INFO - 295 : child memory usage 3112960
+2019-11-29 15:43:41,447 - INFO - 295 : cpu time 31.243402
+2019-11-29 15:43:41,447 - INFO - 295 : child cpu time 0.038838
