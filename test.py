@@ -27,14 +27,11 @@ x_train, x_test, y_train, y_test = train_test_split(
 
 
 automl_settings = {
-    "iteration_timeout_minutes": 2,
-    "experiment_timeout_minutes": 20,
     "enable_early_stopping": True,
     "primary_metric": 'accuracy',
     "featurization": 'auto',
     "verbosity": logging.INFO,
-    "n_cross_validations": 5,
-    "whitelist_models": ['SGD']
+    "n_cross_validations": 5
 }
 
 
@@ -55,5 +52,6 @@ idTestFile = testFile['Id'].values
 testFile = testFile.drop(['Id'], axis=1)
 testFile = testFile.drop(['UserId'], axis=1)
 testFile = testFile.drop(['PitchRate'], axis=1)
-print(testFile)
 y_predict = fitted_model.predict(testFile.values)
+output = pd.DataFrame({'Id': idTestFile, 'Style': y_predict})
+output.to_csv('azure.csv', index=False)
