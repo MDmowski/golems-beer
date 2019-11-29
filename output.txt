@@ -1,0 +1,76 @@
+        OG   FG  ABV   IBU  Color  BoilTime  BoilGravity  Efficiency
+0     1.07 1.01 8.12  0.00  30.48        60          nan       75.00
+1     1.06 1.01 6.80  9.36   9.85        60         1.13       35.00
+2     1.06 1.01 6.08 28.31  35.83        60         1.04       83.00
+3     1.05 1.01 5.44 46.48   5.77        60         1.03       70.00
+4     1.05 1.02 4.64 42.29   4.22        90         1.04       77.00
+...    ...  ...  ...   ...    ...       ...          ...         ...
+42874 1.06 1.02 6.22  0.00   7.41        60         1.06       70.00
+42875 1.06 1.01 5.50 38.05  20.59        60         1.09       70.00
+42876 1.07 1.02 6.40 65.08   9.90        60         1.05       70.00
+42877 1.06 1.01 5.63  0.00  14.49        60          nan       70.00
+42878 1.06 1.01 6.08 26.44  31.95        90         1.04       70.00
+
+[42879 rows x 8 columns]
+Running on local machine
+Parent Run ID: AutoML_eac91287-20f6-4ba5-a410-4b385ef7b994
+
+Current status: DatasetFeaturization. Beginning to featurize the dataset.
+Current status: DatasetEvaluation. Gathering dataset statistics.
+Current status: FeaturesGeneration. Generating features for the dataset.
+Current status: DatasetFeaturizationCompleted. Completed featurizing the dataset.
+Current status: DatasetCrossValidationSplit. Generating individually featurized CV splits.
+
+****************************************************************************************************
+DATA GUARDRAILS SUMMARY:
+For more details, use API: run.get_guardrails()
+
+TYPE:         Class balancing detection
+STATUS:       PASSED
+DESCRIPTION:  Classes are balanced in the training data.
+
+TYPE:         Missing values imputation
+STATUS:       FIXED
+DESCRIPTION:  The training data had the following missing values which were resolved.
+
+Please review your data source for data quality issues and possibly filter out the rows with these missing values.
+
+If the missing values are expected, you can either accept the above imputation, or implement your own custom imputation that may be more appropriate based on the data type and business process.
+
+
+TYPE:         High cardinality feature detection
+STATUS:       PASSED
+DESCRIPTION:  Your inputs were analyzed, and no high cardinality features were detected.
+
+****************************************************************************************************
+Current status: ModelSelection. Beginning model selection.
+
+****************************************************************************************************
+ITERATION: The iteration being evaluated.
+PIPELINE: A summary description of the pipeline being evaluated.
+DURATION: Time taken for the current iteration.
+METRIC: The result of computing score on the fitted pipeline.
+BEST: The best observed score thus far.
+****************************************************************************************************
+
+ ITERATION   PIPELINE                                       DURATION      METRIC      BEST
+         0   MinMaxScaler SGD                               0:00:11       0.6014    0.6014
+         1   MinMaxScaler SGD                               0:00:11       0.5104    0.6014
+         2   StandardScalerWrapper SGD                      0:00:09       0.6310    0.6310
+         3   StandardScalerWrapper SGD                      0:00:09       0.5917    0.6310
+         4   MinMaxScaler SGD                               0:00:11       0.5407    0.6310
+         5   MinMaxScaler RandomForest                      0:00:14       0.5648    0.6310
+         6   StandardScalerWrapper ExtremeRandomTrees       0:00:10       0.1487    0.6310
+         7   MinMaxScaler SGD                               0:00:17       0.4818    0.6310
+         8   StandardScalerWrapper SGD                      0:00:15       0.5827    0.6310
+         9   StandardScalerWrapper RandomForest             0:00:15       0.4819    0.6310
+        10   StandardScalerWrapper RandomForest             0:00:11       0.4700    0.6310
+        11   StandardScalerWrapper SGD                      0:00:10       0.5578    0.6310
+        12   StandardScalerWrapper ExtremeRandomTrees       0:00:15       0.5237    0.6310
+        13   MinMaxScaler RandomForest                      0:00:23       0.4714    0.6310
+        14   MinMaxScaler ExtremeRandomTrees                0:00:09       0.3541    0.6310
+        15   MinMaxScaler BernoulliNaiveBayes               0:00:11       0.2725    0.6310
+        16   StandardScalerWrapper BernoulliNaiveBayes      0:00:10       0.4008    0.6310
+        17   MinMaxScaler RandomForest                      0:00:15       0.4390    0.6310
+        18   MinMaxScaler ExtremeRandomTrees                0:00:10       0.5990    0.6310
+        19   
