@@ -1,34 +1,59 @@
-import keras
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation
-from keras.optimizers import SGD
+from azureml.train.automl import AutoMLConfig
+import logging
+import azureml.core
+from azureml.core import Workspace, Experiment
+from azureml.core.model import Model
+from azureml.core.webservice import Webservice
+import azureml.train.automl
+from keras.models import load_model
+from sklearn.model_selection import train_test_split
+import pandas as pd
+import pickle
+import joblib
 
-# Generate dummy data
-import numpy as np
-x_train = np.random.random((1000, 20))
-y_train = keras.utils.to_categorical(np.random.randint(10, size=(1000, 1)), num_classes=10)
-x_test = np.random.random((100, 20))
-y_test = keras.utils.to_categorical(np.random.randint(10, size=(100, 1)), num_classes=10)
+ws = Workspace.get(
+    name="golem", subscription_id='cde71551-cef6-45b7-aecc-acc8b738c6a0', resource_group='golem')
 
-model = Sequential()
-# Dense(64) is a fully-connected layer with 64 hidden units.
-# in the first layer, you must specify the expected input data shape:
-# here, 20-dimensional vectors.
-model.add(Dense(64, activation='relu', input_dim=20))
-model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(10, activation='softmax'))
+dataFile = pd.read_csv('beers.csv')
+dataFile = dataFile.drop(['UserId'], axis=1)
+dataFile = dataFile.drop(['Name'], axis=1)
+dataFile = dataFile.drop(['PitchRate'], axis=1)
 
-sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy',
-              optimizer=sgd,
-              metrics=['accuracy'])
+y_df = dataFile.pop("Style")
+x_df = dataFile
+print(x_df)
+x_train, x_test, y_train, y_test = train_test_split(
+    x_df, y_df, test_size=0.2, random_state=223)
 
-model.fit(x_train, y_train,
-          epochs=20,
-          batch_size=128)
-score = model.evaluate(x_test, y_test, batch_size=128)
-y = model.predict(x_test)
 
-print(y)
+automl_settings = {
+    "iteration_timeout_minutes": 2,
+    "experiment_timeout_minutes": 20,
+    "enable_early_stopping": True,
+    "primary_metric": 'accuracy',
+    "featurization": 'auto',
+    "verbosity": logging.INFO,
+    "n_cross_validations": 5,
+    "whitelist_models": ['SGD']
+}
+
+
+automl_config = AutoMLConfig(task='classification',
+                             debug_log='automated_ml_errors.log',
+                             X=x_train.values,
+                             y=y_train.values.flatten(),
+                             **automl_settings)
+experiment = Experiment(ws, "beer-classification")
+local_run = experiment.submit(automl_config, show_output=True)
+
+best_run, fitted_model = local_run.get_output()
+print(best_run)
+print(fitted_model)
+
+testFile = pd.read_csv('beers_test_nostyle.csv')
+idTestFile = testFile['Id'].values
+testFile = testFile.drop(['Id'], axis=1)
+testFile = testFile.drop(['UserId'], axis=1)
+testFile = testFile.drop(['PitchRate'], axis=1)
+print(testFile)
+y_predict = fitted_model.predict(testFile.values)
